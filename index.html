@@ -237,8 +237,8 @@ function renderNote(n){
     <div style="margin-bottom:12px">${tags}</div>
     <h1>${n.title}</h1>
     <div class="note-week">Semaine du ${n.week} · Note analytique de veille juridique</div>
-    <div class="note-intro" id="note-short">${n.intro}</div>
-    <div class="note-full" id="note-full" style="display:none">${n.full_content}
+    <div class="note-intro" id="note-short">${md(n.intro)}</div>
+    <div class="note-full" id="note-full" style="display:none">${md(n.full_content)}
       ${hal?`<div class="footnotes"><div style="font-weight:700;margin-bottom:4px">Sources doctrinales</div><ol>${hal}</ol></div>`:''}
     </div>
     <button class="note-toggle" id="note-btn" onclick="toggleNote()">Lire la note complète →</button>`;
@@ -266,9 +266,9 @@ function renderCard(a,i){
       <span class="card-date">${a.date||''}</span>
     </div>
     <h2><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h2>
-    <div class="card-summary">${a.summary||''}</div>
-    ${a.analysis?`<div class="card-analysis">${a.analysis}</div>`:''}
-    ${a.portee?`<p class="card-portee">Portée : ${a.portee}</p>`:''}
+    <div class="card-summary">${md(a.summary||'')}</div>
+    ${a.analysis?`<div class="card-analysis">${md(a.analysis)}</div>`:''}
+    ${a.portee?`<p class="card-portee">Portée : ${md(a.portee)}</p>`:''}
     ${arts?`<div class="arts-list">${arts}</div>`:''}
     ${kws?`<div class="kw-list">${kws}</div>`:''}
     ${hal?`<div class="hal-box"><div class="hal-label">Doctrine & ressources</div>${hal}</div>`:''}
@@ -294,15 +294,15 @@ function renderArret(a,i){
     <h2><a href="${lf}" target="_blank" rel="noopener">${a.title}</a></h2>
     <div class="arret-row">
       <div class="arret-label">Contexte</div>
-      <div class="arret-text">${a.contexte||''}</div>
+      <div class="arret-text">${md(a.contexte||'')}</div>
     </div>
     <button class="arret-toggle" id="btn-${i}" onclick="toggleArret(${i})">Lire la fiche complète ↓</button>
     <div id="arret-${i}" class="arret-body">
-      ${a.faits?`<div class="arret-row"><div class="arret-label">Faits</div><div class="arret-text">${a.faits}</div></div>`:''}
-      ${a.procedure?`<div class="arret-row"><div class="arret-label">Procédure et prétentions des parties</div><div class="arret-text">${a.procedure}</div></div>`:''}
-      ${a.probleme_droit?`<div class="arret-row"><div class="arret-label">Problème de droit</div><div class="arret-text" style="font-style:italic;font-weight:600">${a.probleme_droit}</div></div>`:''}
-      ${a.solution?`<div class="arret-row"><div class="arret-label">Solution</div><div class="arret-text">${a.solution}</div></div>`:''}
-      ${a.portee?`<div class="arret-row"><div class="arret-label">Portée</div><div class="arret-text">${a.portee}</div></div>`:''}
+      ${a.faits?`<div class="arret-row"><div class="arret-label">Faits</div><div class="arret-text">${md(a.faits)}</div></div>`:''}
+      ${a.procedure?`<div class="arret-row"><div class="arret-label">Procédure et prétentions des parties</div><div class="arret-text">${md(a.procedure)}</div></div>`:''}
+      ${a.probleme_droit?`<div class="arret-row"><div class="arret-label">Problème de droit</div><div class="arret-text" style="font-style:italic;font-weight:600">${md(a.probleme_droit)}</div></div>`:''}
+      ${a.solution?`<div class="arret-row"><div class="arret-label">Solution</div><div class="arret-text">${md(a.solution)}</div></div>`:''}
+      ${a.portee?`<div class="arret-row"><div class="arret-label">Portée</div><div class="arret-text">${md(a.portee)}</div></div>`:''}
       ${arts?`<div class="arret-row"><div class="arret-label">Textes cités</div><div class="arts-list">${arts}</div></div>`:''}
       ${kws?`<div class="kw-list" style="margin-top:8px">${kws}</div>`:''}
       ${hal?`<div class="hal-box"><div class="hal-label">Doctrine & ressources complémentaires</div>${hal}</div>`:''}
