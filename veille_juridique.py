@@ -282,7 +282,22 @@ def mistral(prompt, system=SYSTEM_PROMPT):
     r.raise_for_status()
     return r.json()["choices"][0]["message"]["content"]
 
-def parse_json_response(raw):
+def clean_output(text):
+    """Supprime les patterns Avant/Après résiduels et le Markdown brut dans les sorties Mistral."""
+    if not text: return text
+    # Supprimer blocs Avant/Après
+    text = re.sub(r'(?i)(avant\s*/\s*après|avant\s*:.*?après\s*:.*?)(\n|$)', '', text, flags=re.DOTALL)
+    text = re.sub(r'(?i)<div[^>]*avant.apr[^>]*>.*?</div>', '', text, flags=re.DOTALL)
+    # Convertir Markdown → HTML si Mistral a rendu du Markdown malgré les instructions HTML
+    text = re.sub(r'\*\*([^*]+)\*\*', r'<strong>\1</strong>', text)
+    text = re.sub(r'\*([^*]+)\*', r'<em>\1</em>', text)
+    text = re.sub(r'#{3}\s*(.+)', r'<h3>\1</h3>', text)
+    text = re.sub(r'#{2}\s*(.+)', r'<h3>\1</h3>', text)
+    text = re.sub(r'#{1}\s*(.+)', r'<h3>\1</h3>', text)
+    # Convertir sauts de ligne en paragraphes si pas déjà du HTML
+    if '<p>' not in text and '<h3>' not in text:
+        text = '<p>' + text.replace('\n\n', '</p><p>').replace('\n', '<br>') + '</p>'
+    return text.strip()
     raw = raw.strip()
     raw = re.sub(r'^```json\s*','',raw); raw = re.sub(r'^```\s*','',raw)
     raw = re.sub(r'\s*```$','',raw).strip()
