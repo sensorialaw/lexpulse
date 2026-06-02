@@ -204,7 +204,7 @@ strong{font-weight:700}
 <script>
 const REPO = window.location.pathname.split('/').filter(Boolean)[0]||'';
 const DATA_URL = REPO ? `/${REPO}/data/veille.json` : '/data/veille.json';
-const MISTRAL_KEY = 'MISTRAL_FRONT_KEY'; // à remplacer par ta clé Mistral
+const MISTRAL_KEY = 'RTjo3bnQX5PFGTtMLOYFvSzBEpsBv04n'; 
 let allArticles=[], veille=null;
 
 async function init(){
@@ -268,7 +268,7 @@ function renderCard(a,i){
     <h2><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h2>
     <div class="card-summary">${md(a.summary||'')}</div>
     ${a.analysis?`<div class="card-analysis">${md(a.analysis)}</div>`:''}
-    ${a.portee?`<p class="card-portee">Portée : ${md(a.portee)}</p>`:''}
+    ${a.portee?`<div class="card-analysis" style="border-left:3px solid var(--tag-juris);padding-left:10px;margin-top:8px"><span style="font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--muted);display:block;margin-bottom:3px">Portée</span>${md(a.portee)}</div>`:''}
     ${arts?`<div class="arts-list">${arts}</div>`:''}
     ${kws?`<div class="kw-list">${kws}</div>`:''}
     ${hal?`<div class="hal-box"><div class="hal-label">Doctrine & ressources</div>${hal}</div>`:''}
