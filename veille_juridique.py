@@ -403,7 +403,10 @@ def collect_all():
 
 # ─── MISTRAL ──────────────────────────────────────────────
 
-def mistral(prompt, system="Tu es un juriste expert en droit du numérique français et européen."):
+def mistral(prompt, system="""Tu es un juriste expert en droit du numérique français et européen.
+Tu écris en français naturel et direct, comme si tu expliquais à un collègue juriste intelligent mais pressé.
+Tes phrases sont courtes et claires. Tu évites absolument : les tournures administratives, les mots pompeux, le jargon inutile, les formules creuses comme "il convient de noter que", "force est de constater", "à cet égard", "en l'espèce" quand ce n'est pas nécessaire, "il y a lieu de".
+Tu vas droit au but : qu'est-ce qui s'est passé, pourquoi c'est important, ce que ça change concrètement."""):
     r = requests.post(
         "https://api.mistral.ai/v1/chat/completions",
         headers={"Authorization": f"Bearer {MISTRAL_KEY}", "Content-Type": "application/json"},
@@ -473,7 +476,7 @@ Rédige une NOTE JURIDIQUE HEBDOMADAIRE complète (600-800 mots) en HTML structu
 - 3-4 thématiques max : RGPD/données, IA/AI Act, Jurisprudence, Législation EU
 - Pour chaque point : contexte, ce qui change, enjeu pratique pour une équipe conformité
 - Conclusion prospective (que surveiller la semaine prochaine ?)
-Style : analytique, rigoureux, accessible. Pas de listes à puces."""
+Style : analytique mais accessible. Phrases courtes. Pas de listes à puces. Pas de jargon inutile. Écris comme tu parlerais à un collègue juriste, pas comme tu rédigerais un rapport ministériel."""
 
     try:
         intro = mistral(intro_prompt)
@@ -575,13 +578,28 @@ def send_email_digest(note, articles):
 # ─── MAIN ─────────────────────────────────────────────────
 
 if __name__ == "__main__":
+    import sys
+    mode = sys.argv[1] if len(sys.argv) > 1 else "--full"
+
+    if mode == "--email-only":
+        # Relit le JSON existant et envoie juste l'email
+        if DATA_FILE.exists():
+            data = json.loads(DATA_FILE.read_text())
+            print("📧 Envoi email digest...")
+            send_email_digest(data["note_hebdo"], data["articles"])
+            print("✅ Email envoyé !")
+        else:
+            print("❌ Pas de veille.json trouvé pour envoyer l'email.")
+        sys.exit(0)
+
+    # Mode normal ou --no-email
     print(f"🔍 Collecte {'complète (depuis avril 2025)' if is_first_run else 'hebdomadaire'}...")
     raw = collect_all()
     print(f"   → {len(raw)} éléments bruts collectés")
 
     print("🤖 Enrichissement par Mistral...")
     articles = []
-    for i, item in enumerate(raw[:25]):  # limite 25 pour le quota gratuit
+    for i, item in enumerate(raw[:25]):
         print(f"   {i+1}/{min(len(raw),25)} — {item['title'][:50]}")
         articles.append(enrich_article(item))
 
@@ -604,6 +622,7 @@ if __name__ == "__main__":
     DATA_FILE.write_text(json.dumps(output, ensure_ascii=False, indent=2))
     print(f"✅ data/veille.json généré ({len(articles)} articles)")
 
-    print("📧 Envoi email...")
-    send_email_digest(note, articles)
+    if mode != "--no-email":
+        print("📧 Envoi email...")
+        send_email_digest(note, articles)
     print("✅ Terminé !")
