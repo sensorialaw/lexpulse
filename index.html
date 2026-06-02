@@ -5,329 +5,390 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>LexPulse — Veille droit du numérique</title>
 <style>
-  :root {
-    --bg:#f8f7f4; --surface:#fff; --border:#e8e5df; --text:#1a1a1a;
-    --muted:#6b6860; --accent:#2d4a8a; --accent-light:#eef2fb;
-    --tag-rgpd:#1d6e56; --tag-rgpd-bg:#e1f5ee;
-    --tag-ai:#533ab7; --tag-ai-bg:#eeedfe;
-    --tag-dsa:#993c1d; --tag-dsa-bg:#faece7;
-    --tag-sante:#185fa5; --tag-sante-bg:#e6f1fb;
-    --tag-juris:#854f0b; --tag-juris-bg:#faeeda;
-    --tag-legis:#3b6d11; --tag-legis-bg:#eaf3de;
-    --tag-cyber:#5c2d8a; --tag-cyber-bg:#f0ebfe;
-  }
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6}
-  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
-  header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 2rem;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:56px}
-  .logo{font-size:18px;font-weight:700;color:var(--accent)}
-  .logo span{color:var(--muted);font-weight:400;font-size:13px;margin-left:8px}
-  .container{max-width:1100px;margin:0 auto;padding:2rem 1.5rem;display:grid;grid-template-columns:1fr 340px;gap:2rem}
-  @media(max-width:800px){.container{grid-template-columns:1fr}}
-  .section-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);padding-bottom:8px;margin-bottom:1.25rem}
-  .tag{display:inline-block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:4px}
-  .tag-rgpd{background:var(--tag-rgpd-bg);color:var(--tag-rgpd)}
-  .tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai)}
-  .tag-dsa{background:var(--tag-dsa-bg);color:var(--tag-dsa)}
-  .tag-sante{background:var(--tag-sante-bg);color:var(--tag-sante)}
-  .tag-juris{background:var(--tag-juris-bg);color:var(--tag-juris)}
-  .tag-legis{background:var(--tag-legis-bg);color:var(--tag-legis)}
-  .tag-cyber{background:var(--tag-cyber-bg);color:var(--tag-cyber)}
+:root {
+  --ink:#0d0d0d; --ink2:#2a2a2a; --muted:#6b6860; --light:#f0ede8;
+  --bg:#f5f3ef; --surface:#fff; --border:#e0dbd4;
+  --red:#c0392b; --navy:#1a1a2e; --accent:#2563eb;
+  --tag-rgpd:#166534; --tag-rgpd-bg:#dcfce7;
+  --tag-ai:#5b21b6; --tag-ai-bg:#ede9fe;
+  --tag-dsa:#9a3412; --tag-dsa-bg:#ffedd5;
+  --tag-sante:#1e40af; --tag-sante-bg:#dbeafe;
+  --tag-juris:#92400e; --tag-juris-bg:#fef3c7;
+  --tag-legis:#14532d; --tag-legis-bg:#dcfce7;
+  --tag-cyber:#581c87; --tag-cyber-bg:#f3e8ff;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Georgia',serif;background:var(--bg);color:var(--ink);font-size:16px;line-height:1.65}
+a{color:inherit;text-decoration:none} a:hover{text-decoration:underline;color:var(--accent)}
+strong{font-weight:700}
 
-  /* NOTE HEBDO */
-  .note-hebdo{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2rem}
-  .note-hebdo h2{font-size:19px;font-weight:700;line-height:1.3;margin-bottom:4px}
-  .note-meta{font-size:12px;color:var(--muted);margin-bottom:1rem}
-  .note-body{font-size:14px;line-height:1.8;color:#2a2a2a}
-  .note-body h3{font-size:14px;font-weight:600;margin:1.2rem 0 .4rem;color:var(--accent)}
-  .note-body p{margin-bottom:.75rem}
-  .note-body sup a{font-size:10px;color:var(--accent)}
-  .footnotes{margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border);font-size:12px;color:var(--muted);line-height:1.8}
-  .footnotes ol{padding-left:1.2rem}
-  .read-more{display:inline-block;margin-top:1rem;font-size:13px;color:var(--accent);font-weight:500;cursor:pointer;border:none;background:none;padding:0}
+/* ── MASTHEAD ── */
+.masthead{background:var(--navy);padding:0;border-bottom:3px solid var(--red)}
+.masthead-inner{max-width:1200px;margin:0 auto;padding:18px 24px;display:flex;align-items:flex-end;justify-content:space-between}
+.brand{font-family:-apple-system,sans-serif}
+.brand-name{font-size:32px;font-weight:900;color:#fff;letter-spacing:-1.5px;line-height:1}
+.brand-sub{font-size:11px;color:#7a8aaa;text-transform:uppercase;letter-spacing:2px;margin-top:4px}
+.masthead-date{font-size:12px;color:#7a8aaa;font-family:-apple-system,sans-serif}
+.nav-strip{background:var(--navy);border-bottom:1px solid #2a2a4a}
+.nav-inner{max-width:1200px;margin:0 auto;padding:0 24px;display:flex;gap:0}
+.nav-item{font-family:-apple-system,sans-serif;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:#8899bb;padding:10px 16px;cursor:pointer;border-bottom:2px solid transparent;transition:all .15s}
+.nav-item:hover,.nav-item.active{color:#fff;border-bottom-color:var(--red)}
 
-  /* CARTE ARTICLE */
-  .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin-bottom:.75rem;transition:border-color .15s}
-  .card:hover{border-color:#b0bdd8}
-  .card-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
-  .card h3{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:6px}
-  .card h3 a{color:var(--text)} .card h3 a:hover{color:var(--accent)}
-  .card p{font-size:13px;color:#3a3a3a;line-height:1.6;margin-bottom:6px}
-  .card-meta{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px}
-  .impact-high{color:#a32d2d;font-weight:500} .impact-med{color:#854f0b;font-weight:500} .impact-low{color:#3b6d11;font-weight:500}
+/* ── LAYOUT ── */
+.layout{max-width:1200px;margin:0 auto;padding:28px 24px;display:grid;grid-template-columns:1fr 320px;gap:32px}
+@media(max-width:860px){.layout{grid-template-columns:1fr}}
 
-  /* FICHE ARRÊT */
-  .arret-section{margin-top:10px}
-  .arret-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:2px}
-  .arret-content{font-size:13px;color:#2a2a2a;line-height:1.6;margin-bottom:10px;padding-left:10px;border-left:2px solid var(--border)}
-  .arret-articles{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
-  .arret-article-tag{font-size:10px;background:#f0f2f8;color:var(--accent);padding:2px 6px;border-radius:3px;border:1px solid #d0d8f0}
-  .arret-expand{font-size:12px;color:var(--accent);cursor:pointer;border:none;background:none;padding:0;margin-top:6px}
-  .arret-full{display:none}
-  .hal-resources{margin-top:10px;padding:10px 12px;background:#f8f7f4;border-radius:6px;border:1px solid var(--border)}
-  .hal-title{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:6px}
-  .hal-item{font-size:12px;line-height:1.5;margin-bottom:4px}
+/* ── RUBRIC LABEL ── */
+.rubric{font-family:-apple-system,sans-serif;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);margin-bottom:6px}
+.section-rule{border:none;border-top:2px solid var(--ink);margin-bottom:16px}
 
-  /* SIDEBAR */
-  .widget{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin-bottom:1.25rem}
-  .widget-title{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:1rem}
-  .stat-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--border);font-size:13px}
-  .stat-row:last-child{border-bottom:none}
-  .stat-num{font-weight:700;color:var(--accent);font-size:18px}
+/* ── TAGS ── */
+.tag{font-family:-apple-system,sans-serif;display:inline-block;font-size:9px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;padding:3px 8px;border-radius:2px;margin-right:4px}
+.tag-rgpd{background:var(--tag-rgpd-bg);color:var(--tag-rgpd)}
+.tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai)}
+.tag-dsa{background:var(--tag-dsa-bg);color:var(--tag-dsa)}
+.tag-sante{background:var(--tag-sante-bg);color:var(--tag-sante)}
+.tag-juris{background:var(--tag-juris-bg);color:var(--tag-juris)}
+.tag-legis{background:var(--tag-legis-bg);color:var(--tag-legis)}
+.tag-cyber{background:var(--tag-cyber-bg);color:var(--tag-cyber)}
 
-  /* CHAT */
-  .chat-widget{background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden}
-  .chat-title{padding:1rem 1.25rem;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px}
-  .chat-online::before{content:'';width:8px;height:8px;border-radius:50%;background:#3b6d11;display:inline-block}
-  #chat-messages{height:320px;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.75rem}
-  .msg{max-width:90%;font-size:13px;line-height:1.6;padding:9px 13px;border-radius:10px}
-  .msg-bot{background:var(--accent-light);color:var(--text);align-self:flex-start;border-radius:2px 10px 10px 10px}
-  .msg-user{background:var(--accent);color:#fff;align-self:flex-end;border-radius:10px 10px 2px 10px}
-  .msg-loading{color:var(--muted);font-style:italic}
-  .chat-input-area{padding:.75rem;border-top:1px solid var(--border);display:flex;gap:8px}
-  #chat-input{flex:1;border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-size:13px;font-family:inherit;outline:none;resize:none}
-  #chat-input:focus{border-color:var(--accent)}
-  #chat-send{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:13px;cursor:pointer}
-  #chat-send:hover{background:#1f3570}
-  .suggestions{padding:0 1rem .75rem;display:flex;flex-wrap:wrap;gap:6px}
-  .suggest-btn{font-size:11px;border:1px solid var(--border);border-radius:20px;padding:4px 10px;background:var(--bg);cursor:pointer;color:var(--muted);transition:all .15s}
-  .suggest-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light)}
+/* ── NOTE HEBDO ── */
+.note-card{background:var(--surface);border:1px solid var(--border);padding:28px 32px;margin-bottom:28px}
+.note-card h1{font-size:26px;line-height:1.25;font-weight:700;margin:10px 0 6px}
+.note-week{font-family:-apple-system,sans-serif;font-size:12px;color:var(--muted);margin-bottom:16px;padding-bottom:16px;border-bottom:1px solid var(--border)}
+.note-intro{font-size:17px;line-height:1.7;color:var(--ink2);margin-bottom:12px;font-style:italic}
+.note-full{font-size:15px;line-height:1.75;color:var(--ink2)}
+.note-full h3{font-family:-apple-system,sans-serif;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--red);margin:20px 0 8px;padding-top:16px;border-top:1px solid var(--border)}
+.note-full p{margin-bottom:12px}
+.note-full strong{color:var(--ink)}
+.note-full sup a{font-size:10px;color:var(--accent);font-family:-apple-system,sans-serif}
+.footnotes{margin-top:20px;padding-top:14px;border-top:1px solid var(--border);font-family:-apple-system,sans-serif;font-size:11px;color:var(--muted);line-height:1.8}
+.footnotes ol{padding-left:16px}
+.note-toggle{font-family:-apple-system,sans-serif;font-size:13px;font-weight:600;color:var(--accent);cursor:pointer;border:none;background:none;padding:12px 0 0;display:block}
 
-  /* FILTRES */
-  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
-  .filter-btn{font-size:12px;padding:4px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface);cursor:pointer;color:var(--muted);transition:all .15s}
-  .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
+/* ── ARTICLE CARD ── */
+.card{background:var(--surface);border:1px solid var(--border);padding:20px 24px;margin-bottom:12px;transition:border-color .15s}
+.card:hover{border-color:#b0b0c0}
+.card-meta{font-family:-apple-system,sans-serif;display:flex;align-items:center;gap:10px;margin-bottom:10px;flex-wrap:wrap}
+.card-date{font-size:11px;color:var(--muted)}
+.card h2{font-size:17px;font-weight:700;line-height:1.35;margin-bottom:8px}
+.card h2 a{color:var(--ink)} .card h2 a:hover{color:var(--accent)}
+.card-summary{font-size:14px;line-height:1.65;color:var(--ink2);margin-bottom:8px}
+.card-analysis{font-size:13px;line-height:1.65;color:#444;margin-top:10px;padding-top:10px;border-top:1px solid var(--border)}
+.card-portee{font-family:-apple-system,sans-serif;font-size:12px;color:var(--muted);font-style:italic;margin-top:8px}
+.card-footer{font-family:-apple-system,sans-serif;display:flex;align-items:center;gap:16px;margin-top:12px;padding-top:10px;border-top:1px solid var(--border);flex-wrap:wrap}
+.card-source{font-size:11px;color:var(--muted)}
+.card-source a{color:var(--accent);font-weight:600}
+.impact-tag{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:2px}
+.impact-high{background:#fee2e2;color:#991b1b}
+.impact-med{background:#fef3c7;color:#92400e}
+.impact-low{background:#dcfce7;color:#166534}
+.arts-list{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.art-chip{font-family:-apple-system,sans-serif;font-size:10px;background:var(--light);color:var(--accent);padding:2px 7px;border-radius:2px;border:1px solid #d0d8f0}
 
-  .banner{background:var(--accent-light);border:1px solid #b0c0e0;border-radius:8px;padding:10px 16px;font-size:13px;color:var(--accent);margin-bottom:1.5rem;display:flex;align-items:center;gap:8px}
-  #loading{text-align:center;padding:3rem;color:var(--muted);font-size:14px}
-  .spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem}
-  @keyframes spin{to{transform:rotate(360deg)}}
+/* ── FICHE ARRÊT ── */
+.arret-card{background:var(--surface);border:2px solid var(--tag-juris-bg);border-left:4px solid var(--tag-juris);padding:20px 24px;margin-bottom:12px}
+.arret-ref{font-family:-apple-system,sans-serif;font-size:11px;color:var(--muted);margin-bottom:4px}
+.arret-card h2{font-size:17px;font-weight:700;margin-bottom:12px;line-height:1.35}
+.arret-card h2 a{color:var(--ink)}
+.arret-row{margin-bottom:10px}
+.arret-label{font-family:-apple-system,sans-serif;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1.2px;color:var(--muted);margin-bottom:3px}
+.arret-text{font-size:13px;line-height:1.65;color:var(--ink2);padding-left:10px;border-left:2px solid var(--border)}
+.arret-toggle{font-family:-apple-system,sans-serif;font-size:12px;font-weight:600;color:var(--accent);cursor:pointer;border:none;background:none;padding:8px 0 0;display:block}
+.arret-body{display:none}
+.hal-box{background:var(--light);border:1px solid var(--border);padding:12px 14px;margin-top:12px;border-radius:2px}
+.hal-label{font-family:-apple-system,sans-serif;font-size:9px;font-weight:800;text-transform:uppercase;letter-spacing:1px;color:var(--muted);margin-bottom:6px}
+.hal-item{font-family:-apple-system,sans-serif;font-size:11px;line-height:1.6;margin-bottom:4px}
+.kw-list{display:flex;flex-wrap:wrap;gap:4px;margin-top:8px}
+.kw{font-family:-apple-system,sans-serif;font-size:10px;background:#f1f5f9;color:#334155;padding:2px 7px;border-radius:2px}
+
+/* ── SIDEBAR ── */
+.sidebar{}
+.widget{background:var(--surface);border:1px solid var(--border);padding:18px 20px;margin-bottom:16px}
+.widget-label{font-family:-apple-system,sans-serif;font-size:10px;font-weight:800;text-transform:uppercase;letter-spacing:1.5px;color:var(--red);margin-bottom:14px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.stat-row{display:flex;justify-content:space-between;align-items:center;padding:7px 0;border-bottom:1px solid var(--border);font-size:13px;font-family:-apple-system,sans-serif}
+.stat-row:last-child{border-bottom:none}
+.stat-num{font-weight:800;color:var(--navy);font-size:20px}
+
+/* ── FILTRES ── */
+.filters{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:18px}
+.filter-btn{font-family:-apple-system,sans-serif;font-size:11px;font-weight:600;padding:5px 12px;border:1px solid var(--border);background:var(--surface);cursor:pointer;color:var(--muted);transition:all .15s;border-radius:2px}
+.filter-btn.active{background:var(--navy);color:#fff;border-color:var(--navy)}
+.filter-btn:hover:not(.active){border-color:var(--navy);color:var(--navy)}
+
+/* ── CHAT ── */
+.chat-widget{background:var(--surface);border:1px solid var(--border);overflow:hidden}
+.chat-head{background:var(--navy);padding:12px 16px;display:flex;align-items:center;gap:8px}
+.chat-dot{width:8px;height:8px;border-radius:50%;background:#22c55e}
+.chat-head-title{font-family:-apple-system,sans-serif;font-size:12px;font-weight:700;color:#fff;text-transform:uppercase;letter-spacing:.8px}
+#chat-messages{height:300px;overflow-y:auto;padding:14px;display:flex;flex-direction:column;gap:10px;background:#fafaf8}
+.msg{max-width:90%;font-family:-apple-system,sans-serif;font-size:13px;line-height:1.55;padding:10px 13px;border-radius:3px}
+.msg-bot{background:#fff;border:1px solid var(--border);align-self:flex-start}
+.msg-user{background:var(--navy);color:#fff;align-self:flex-end}
+.msg-loading{color:var(--muted);font-style:italic}
+.chat-suggestions{padding:10px 14px;display:flex;flex-wrap:wrap;gap:6px;background:#fafaf8;border-top:1px solid var(--border)}
+.sug-btn{font-family:-apple-system,sans-serif;font-size:11px;border:1px solid var(--border);padding:4px 10px;background:#fff;cursor:pointer;color:var(--muted);border-radius:2px;transition:all .15s}
+.sug-btn:hover{border-color:var(--navy);color:var(--navy)}
+.chat-input-row{padding:10px;border-top:1px solid var(--border);display:flex;gap:8px}
+#chat-input{flex:1;border:1px solid var(--border);padding:9px 11px;font-size:13px;font-family:-apple-system,sans-serif;outline:none;resize:none;border-radius:2px}
+#chat-input:focus{border-color:var(--navy)}
+#chat-send{background:var(--navy);color:#fff;border:none;padding:9px 16px;font-size:13px;font-family:-apple-system,sans-serif;font-weight:600;cursor:pointer;border-radius:2px}
+#chat-send:hover{background:#2a2a4e}
+
+/* ── BANNER ── */
+.banner{font-family:-apple-system,sans-serif;background:#fff;border:1px solid var(--border);border-left:3px solid var(--accent);padding:10px 16px;font-size:12px;color:var(--muted);margin-bottom:20px;display:flex;align-items:center;gap:8px}
+#loading{text-align:center;padding:4rem;color:var(--muted);font-family:-apple-system,sans-serif}
+.spinner{width:28px;height:28px;border:2px solid var(--border);border-top-color:var(--red);border-radius:50%;animation:spin .7s linear infinite;margin:0 auto 12px}
+@keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-<header>
-  <div class="logo">LexPulse <span>Veille droit du numérique</span></div>
-  <div style="font-size:12px;color:var(--muted)" id="header-date"></div>
-</header>
+
+<div class="masthead">
+  <div class="masthead-inner">
+    <div class="brand">
+      <div class="brand-name">LexPulse</div>
+      <div class="brand-sub">Veille · Droit du numérique</div>
+    </div>
+    <div class="masthead-date" id="hdate"></div>
+  </div>
+</div>
+<div class="nav-strip">
+  <div class="nav-inner">
+    <div class="nav-item active" onclick="nav('all',this)">Tout</div>
+    <div class="nav-item" onclick="nav('rgpd',this)">RGPD</div>
+    <div class="nav-item" onclick="nav('sante',this)">Santé</div>
+    <div class="nav-item" onclick="nav('juris',this)">Jurisprudence</div>
+    <div class="nav-item" onclick="nav('ai',this)">AI Act</div>
+    <div class="nav-item" onclick="nav('legis',this)">Législation</div>
+    <div class="nav-item" onclick="nav('dsa',this)">Plateformes</div>
+  </div>
+</div>
 
 <div id="loading"><div class="spinner"></div>Chargement de la veille…</div>
 
-<div class="container" id="main" style="display:none">
+<div class="layout" id="main" style="display:none">
   <main>
     <div class="banner" id="banner"></div>
-    <div class="section-title">Note hebdomadaire</div>
-    <div class="note-hebdo" id="note-container"></div>
-    <div class="section-title" style="margin-top:2rem">Actualités récentes</div>
-    <div class="filters">
-      <button class="filter-btn active" onclick="filter('all',this)">Tout</button>
-      <button class="filter-btn" onclick="filter('rgpd',this)">RGPD</button>
-      <button class="filter-btn" onclick="filter('ai',this)">AI Act</button>
-      <button class="filter-btn" onclick="filter('sante',this)">Santé</button>
-      <button class="filter-btn" onclick="filter('juris',this)">Jurisprudence</button>
-      <button class="filter-btn" onclick="filter('legis',this)">Législation</button>
-      <button class="filter-btn" onclick="filter('cyber',this)">Cyber</button>
+
+    <div class="rubric">Note de la semaine</div>
+    <hr class="section-rule">
+    <div class="note-card" id="note-container"></div>
+
+    <div style="margin-top:28px">
+      <div class="rubric">Actualités récentes</div>
+      <hr class="section-rule">
     </div>
     <div id="articles"></div>
   </main>
-  <aside>
-    <div class="widget"><div class="widget-title">Cette semaine</div><div id="stats"></div></div>
+
+  <aside class="sidebar">
+    <div class="widget">
+      <div class="widget-label">Cette semaine</div>
+      <div id="stats"></div>
+    </div>
     <div class="chat-widget">
-      <div class="chat-title"><span class="chat-online"></span>Agent juridique</div>
+      <div class="chat-head"><div class="chat-dot"></div><div class="chat-head-title">Agent juridique</div></div>
       <div id="chat-messages">
-        <div class="msg msg-bot">Bonjour ! Posez-moi une question sur l'actualité juridique de la semaine, ou demandez-moi d'approfondir un sujet.</div>
+        <div class="msg msg-bot">Bonjour. Posez-moi une question sur l'actualité juridique de la semaine ou demandez une analyse approfondie.</div>
       </div>
-      <div class="suggestions" id="suggestions"></div>
-      <div class="chat-input-area">
-        <textarea id="chat-input" rows="2" placeholder="Ex : Analyse la dernière décision CNIL…"></textarea>
-        <button id="chat-send" onclick="sendChat()">Envoyer</button>
+      <div class="chat-suggestions" id="suggestions"></div>
+      <div class="chat-input-row">
+        <textarea id="chat-input" rows="2" placeholder="Ex : Analyse la sanction CNIL contre Iqvia…"></textarea>
+        <button id="chat-send" onclick="sendChat()">→</button>
       </div>
     </div>
   </aside>
 </div>
 
 <script>
-const REPO = window.location.pathname.split('/').filter(Boolean)[0] || '';
+const REPO = window.location.pathname.split('/').filter(Boolean)[0]||'';
 const DATA_URL = REPO ? `/${REPO}/data/veille.json` : '/data/veille.json';
-let allArticles = [], veille = null;
+const MISTRAL_KEY = 'MISTRAL_FRONT_KEY'; // à remplacer par ta clé Mistral
+let allArticles=[], veille=null;
 
-async function init() {
-  try {
-    const r = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!r.ok) throw new Error();
-    veille = await r.json();
+async function init(){
+  try{
+    const r=await fetch(DATA_URL+'?t='+Date.now());
+    if(!r.ok) throw new Error();
+    veille=await r.json();
     render(veille);
-  } catch(e) {
-    document.getElementById('loading').innerHTML = '<p style="color:#a32d2d;padding:2rem">Données non disponibles. Lancez le workflow GitHub Actions.</p>';
+  } catch(e){
+    document.getElementById('loading').innerHTML='<p style="color:#c0392b">Données non disponibles. Lancez le workflow GitHub Actions pour générer la veille.</p>';
   }
 }
 
-function render(d) {
-  document.getElementById('loading').style.display = 'none';
-  document.getElementById('main').style.display = 'grid';
-  document.getElementById('header-date').textContent = new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
-  document.getElementById('banner').innerHTML = `⟳ Dernière mise à jour : ${new Date(d.generated_at).toLocaleString('fr-FR')} — ${d.articles.length} actualités`;
+function render(d){
+  document.getElementById('loading').style.display='none';
+  document.getElementById('main').style.display='grid';
+  document.getElementById('hdate').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  document.getElementById('banner').innerHTML=`↻ Mise à jour : ${new Date(d.generated_at).toLocaleString('fr-FR')} — ${d.articles.length} actualités collectées`;
   renderNote(d.note_hebdo);
-  allArticles = d.articles;
+  allArticles=d.articles;
   renderArticles(allArticles);
   renderStats(d.stats||{});
   renderSuggestions(d.suggestions||[]);
 }
 
-function renderNote(n) {
-  const tags = (n.tags||[]).map(t => `<span class="tag tag-${t.toLowerCase()}">${t}</span>`).join(' ');
-  const halSources = (n.hal_sources||[]).map(h =>
-    `<li><a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</li>`).join('');
-  document.getElementById('note-container').innerHTML = `
-    <div style="display:flex;gap:6px;margin-bottom:10px">${tags}</div>
-    <h2>${n.title}</h2>
-    <div class="note-meta">Semaine du ${n.week} · Note analytique</div>
-    <div class="note-body" id="note-short">${n.intro}</div>
-    <div class="note-body" id="note-full" style="display:none">${n.full_content}
-      ${halSources ? `<div class="footnotes"><div class="hal-title">Sources doctrinales</div><ol>${halSources}</ol></div>` : ''}
+function renderNote(n){
+  const tags=(n.tags||[]).map(t=>`<span class="tag tag-${t.toLowerCase().replace(/ /g,'-')}">${t}</span>`).join('');
+  const hal=(n.hal_sources||[]).map(h=>`<li><a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</li>`).join('');
+  document.getElementById('note-container').innerHTML=`
+    <div style="margin-bottom:12px">${tags}</div>
+    <h1>${n.title}</h1>
+    <div class="note-week">Semaine du ${n.week} · Note analytique de veille juridique</div>
+    <div class="note-intro" id="note-short">${n.intro}</div>
+    <div class="note-full" id="note-full" style="display:none">${n.full_content}
+      ${hal?`<div class="footnotes"><div style="font-weight:700;margin-bottom:4px">Sources doctrinales</div><ol>${hal}</ol></div>`:''}
     </div>
-    <button class="read-more" id="note-btn" onclick="toggleNote()">Lire la note complète →</button>`;
+    <button class="note-toggle" id="note-btn" onclick="toggleNote()">Lire la note complète →</button>`;
 }
 
-function toggleNote() {
+function toggleNote(){
   const s=document.getElementById('note-short'),f=document.getElementById('note-full'),b=document.getElementById('note-btn');
-  if(f.style.display==='none'){f.style.display='block';s.style.display='none';b.textContent='← Réduire';}
-  else{f.style.display='none';s.style.display='block';b.textContent='Lire la note complète →';}
+  f.style.display=f.style.display==='none'?(s.style.display='none','block'):(s.style.display='block','none');
+  b.textContent=f.style.display==='block'?'← Réduire':'Lire la note complète →';
 }
 
-function renderArticles(articles) {
-  const c = document.getElementById('articles');
-  if (!articles.length) { c.innerHTML = '<p style="color:var(--muted);font-size:13px">Aucun article dans cette catégorie.</p>'; return; }
-  c.innerHTML = articles.map((a,i) => a.type === 'arret' ? renderArret(a,i) : renderCard(a,i)).join('');
+function renderArticles(arts){
+  const c=document.getElementById('articles');
+  if(!arts.length){c.innerHTML='<p style="color:var(--muted);font-size:13px;font-family:sans-serif">Aucun article dans cette catégorie.</p>';return;}
+  c.innerHTML=arts.map((a,i)=>a.type==='arret'?renderArret(a,i):renderCard(a,i)).join('');
 }
 
-function renderCard(a, i) {
-  const hal = (a.ressources_hal||[]).map(h =>
-    `<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
-  const arts = (a.articles_cites||[]).map(ar => `<span class="arret-article-tag">${ar}</span>`).join('');
+function renderCard(a,i){
+  const arts=(a.articles_cites||[]).map(t=>`<span class="art-chip">${t}</span>`).join('');
+  const hal=(a.ressources_hal||[]).map(h=>`<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
+  const kws=(a.mots_cles||[]).map(k=>`<span class="kw">${k}</span>`).join('');
   return `<div class="card" data-cat="${a.category}">
-    <div class="card-header"><span class="tag tag-${a.category}">${a.category_label||''}</span><span style="font-size:11px;color:var(--muted)">${a.date||''}</span></div>
-    <h3><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h3>
-    <p>${a.summary||''}</p>
-    ${a.analysis ? `<p style="border-top:1px solid var(--border);padding-top:8px;margin-top:6px">${a.analysis}</p>` : ''}
-    ${a.portee ? `<p style="font-size:12px;color:var(--muted);font-style:italic">Portée : ${a.portee}</p>` : ''}
-    ${arts ? `<div class="arret-articles">${arts}</div>` : ''}
-    ${hal ? `<div class="hal-resources"><div class="hal-title">Doctrine & ressources</div>${hal}</div>` : ''}
     <div class="card-meta">
-      <span>Source : <a href="${a.url||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
-      ${a.impact ? `<span class="impact-${a.impact_level}">Impact ${a.impact}</span>` : ''}
+      <span class="tag tag-${a.category}">${a.category_label||''}</span>
+      <span class="card-date">${a.date||''}</span>
+    </div>
+    <h2><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h2>
+    <div class="card-summary">${a.summary||''}</div>
+    ${a.analysis?`<div class="card-analysis">${a.analysis}</div>`:''}
+    ${a.portee?`<p class="card-portee">Portée : ${a.portee}</p>`:''}
+    ${arts?`<div class="arts-list">${arts}</div>`:''}
+    ${kws?`<div class="kw-list">${kws}</div>`:''}
+    ${hal?`<div class="hal-box"><div class="hal-label">Doctrine & ressources</div>${hal}</div>`:''}
+    <div class="card-footer">
+      <span class="card-source">Source : <a href="${a.url||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
+      ${a.impact?`<span class="impact-tag impact-${a.impact_level}">Impact ${a.impact}</span>`:''}
     </div>
   </div>`;
 }
 
-function renderArret(a, i) {
-  const arts = (a.articles_cites||[]).map(ar => `<span class="arret-article-tag">${ar}</span>`).join('');
-  const hal = (a.ressources_hal||[]).map(h =>
-    `<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
-  return `<div class="card" data-cat="juris">
-    <div class="card-header">
+function renderArret(a,i){
+  const arts=(a.articles_cites||[]).map(t=>`<span class="art-chip">${t}</span>`).join('');
+  const kws=(a.mots_cles||[]).map(k=>`<span class="kw">${k}</span>`).join('');
+  const hal=(a.ressources_hal||[]).map(h=>`<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
+  const lf=a.legifrance_url||a.url||'';
+  return `<div class="arret-card" data-cat="juris">
+    <div class="card-meta">
       <span class="tag tag-juris">Jurisprudence</span>
-      <span style="font-size:11px;color:var(--muted)">${a.juridiction||a.source||''} · ${a.date||''}</span>
+      <span class="card-date">${a.juridiction||a.source||''} · ${a.date||''}</span>
+      ${a.impact?`<span class="impact-tag impact-${a.impact_level}">Impact ${a.impact}</span>`:''}
     </div>
-    <h3><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h3>
-    <div class="arret-section">
+    ${a.reference?`<div class="arret-ref">${a.reference}</div>`:''}
+    <h2><a href="${lf}" target="_blank" rel="noopener">${a.title}</a></h2>
+    <div class="arret-row">
       <div class="arret-label">Contexte</div>
-      <div class="arret-content">${a.contexte||''}</div>
+      <div class="arret-text">${a.contexte||''}</div>
     </div>
-    <button class="arret-expand" onclick="toggleArret(${i})">Voir la fiche complète ↓</button>
-    <div id="arret-${i}" class="arret-full">
-      ${a.faits ? `<div class="arret-section"><div class="arret-label">Faits</div><div class="arret-content">${a.faits}</div></div>` : ''}
-      ${a.procedure ? `<div class="arret-section"><div class="arret-label">Procédure et prétentions</div><div class="arret-content">${a.procedure}</div></div>` : ''}
-      ${a.probleme_droit ? `<div class="arret-section"><div class="arret-label">Problème de droit</div><div class="arret-content" style="font-style:italic">${a.probleme_droit}</div></div>` : ''}
-      ${a.solution ? `<div class="arret-section"><div class="arret-label">Solution</div><div class="arret-content">${a.solution}</div></div>` : ''}
-      ${a.portee ? `<div class="arret-section"><div class="arret-label">Portée</div><div class="arret-content">${a.portee}</div></div>` : ''}
-      ${arts ? `<div class="arret-section"><div class="arret-label">Textes cités</div><div class="arret-articles">${arts}</div></div>` : ''}
-      ${hal ? `<div class="hal-resources" style="margin-top:12px"><div class="hal-title">Doctrine & ressources complémentaires</div>${hal}</div>` : ''}
+    <button class="arret-toggle" id="btn-${i}" onclick="toggleArret(${i})">Lire la fiche complète ↓</button>
+    <div id="arret-${i}" class="arret-body">
+      ${a.faits?`<div class="arret-row"><div class="arret-label">Faits</div><div class="arret-text">${a.faits}</div></div>`:''}
+      ${a.procedure?`<div class="arret-row"><div class="arret-label">Procédure et prétentions des parties</div><div class="arret-text">${a.procedure}</div></div>`:''}
+      ${a.probleme_droit?`<div class="arret-row"><div class="arret-label">Problème de droit</div><div class="arret-text" style="font-style:italic;font-weight:600">${a.probleme_droit}</div></div>`:''}
+      ${a.solution?`<div class="arret-row"><div class="arret-label">Solution</div><div class="arret-text">${a.solution}</div></div>`:''}
+      ${a.portee?`<div class="arret-row"><div class="arret-label">Portée</div><div class="arret-text">${a.portee}</div></div>`:''}
+      ${arts?`<div class="arret-row"><div class="arret-label">Textes cités</div><div class="arts-list">${arts}</div></div>`:''}
+      ${kws?`<div class="kw-list" style="margin-top:8px">${kws}</div>`:''}
+      ${hal?`<div class="hal-box"><div class="hal-label">Doctrine & ressources complémentaires</div>${hal}</div>`:''}
+      ${lf?`<div style="margin-top:10px;font-family:sans-serif;font-size:12px"><a href="${lf}" target="_blank" rel="noopener" style="color:var(--accent);font-weight:600">→ Décision complète sur Légifrance</a></div>`:''}
     </div>
-    <div class="card-meta">
-      <span>Source : <a href="${a.url||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
-      ${a.impact ? `<span class="impact-${a.impact_level}">Impact ${a.impact}</span>` : ''}
+    <div class="card-footer">
+      <span class="card-source">Source : <a href="${lf||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
     </div>
   </div>`;
 }
 
-function toggleArret(i) {
-  const el = document.getElementById(`arret-${i}`);
-  const btn = el.previousElementSibling;
-  if (el.style.display === 'none' || !el.style.display) {
-    el.style.display = 'block'; btn.textContent = 'Réduire ↑';
-  } else { el.style.display = 'none'; btn.textContent = 'Voir la fiche complète ↓'; }
+function toggleArret(i){
+  const el=document.getElementById(`arret-${i}`),btn=document.getElementById(`btn-${i}`);
+  const open=el.style.display==='block';
+  el.style.display=open?'none':'block';
+  btn.textContent=open?'Lire la fiche complète ↓':'Réduire ↑';
 }
 
-function filter(cat, btn) {
-  document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  btn.classList.add('active');
-  renderArticles(cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat));
+function nav(cat,el){
+  document.querySelectorAll('.nav-item').forEach(b=>b.classList.remove('active'));
+  el.classList.add('active');
+  renderArticles(cat==='all'?allArticles:allArticles.filter(a=>a.category===cat));
 }
 
-function renderStats(s) {
-  document.getElementById('stats').innerHTML = `
-    <div class="stat-row"><span>Total collectés</span><span class="stat-num">${s.total||0}</span></div>
+function renderStats(s){
+  document.getElementById('stats').innerHTML=`
+    <div class="stat-row"><span>Total</span><span class="stat-num">${s.total||0}</span></div>
     <div class="stat-row"><span>RGPD / données</span><span class="stat-num">${s.rgpd||0}</span></div>
     <div class="stat-row"><span>AI Act / IA</span><span class="stat-num">${s.ai||0}</span></div>
-    <div class="stat-row"><span>Santé / HDS</span><span class="stat-num">${s.sante||0}</span></div>
+    <div class="stat-row"><span>Données de santé</span><span class="stat-num">${s.sante||0}</span></div>
     <div class="stat-row"><span>Jurisprudence</span><span class="stat-num">${s.juris||0}</span></div>
-    <div class="stat-row"><span>Législation / Cyber</span><span class="stat-num">${s.legis||0}</span></div>`;
+    <div class="stat-row"><span>Législation / DSA</span><span class="stat-num">${s.legis||0}</span></div>`;
 }
 
-function renderSuggestions(s) {
-  document.getElementById('suggestions').innerHTML = s.map(q =>
-    `<button class="suggest-btn" onclick="quickChat(\`${q.replace(/`/g,'\\`')}\`)">${q}</button>`).join('');
+function renderSuggestions(s){
+  document.getElementById('suggestions').innerHTML=s.map(q=>
+    `<button class="sug-btn" onclick="quickChat(\`${q.replace(/`/g,"'")}\`)">${q}</button>`).join('');
 }
 
-async function sendChat() {
-  const inp = document.getElementById('chat-input');
-  const q = inp.value.trim(); if (!q) return;
-  inp.value = '';
-  addMsg(q, 'user');
-  const loadEl = addMsg('…', 'bot loading');
+// ── AGENT MISTRAL (pas de CORS) ──
+async function sendChat(){
+  const inp=document.getElementById('chat-input');
+  const q=inp.value.trim(); if(!q) return;
+  inp.value='';
+  addMsg(q,'user');
+  const loadEl=addMsg('…','bot loading');
 
-  const ctx = veille ? `Données de veille (semaine du ${veille.note_hebdo?.week}) :
-NOTE : ${(veille.note_hebdo?.full_content||'').replace(/<[^>]+>/g,'').slice(0,1500)}
-ARTICLES : ${(veille.articles||[]).slice(0,15).map(a=>
-  `[${a.category_label}] ${a.title} — ${(a.summary||a.contexte||'').slice(0,120)}`).join('\n')}` : '';
+  const ctx=veille?`Veille juridique semaine du ${veille.note_hebdo?.week} :
+NOTE : ${(veille.note_hebdo?.full_content||'').replace(/<[^>]+>/g,'').slice(0,1200)}
+ARTICLES : ${(veille.articles||[]).slice(0,12).map(a=>`[${a.category_label}] ${a.title} — ${(a.summary||a.contexte||'').slice(0,100)}`).join('\n')}`:'';
 
-  try {
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
+  try{
+    const res=await fetch('https://api.mistral.ai/v1/chat/completions',{
       method:'POST',
-      headers:{'Content-Type':'application/json'},
-      body: JSON.stringify({
-        model:'claude-sonnet-4-20250514',
-        max_tokens:1000,
-        system:`Tu es un assistant juridique expert en droit du numérique, RGPD, AI Act et droit de la santé. Tu travailles pour Alex, juriste stagiaire en conformité (AMU, AP-HM, CNRS). Réponds en français direct et précis, comme à un pair juriste. Pas de formules creuses. Appuie-toi sur le contexte de veille fourni.
-
-${ctx}`,
-        messages:[{role:'user',content:q}]
+      headers:{'Authorization':`Bearer ${MISTRAL_KEY}`,'Content-Type':'application/json'},
+      body:JSON.stringify({
+        model:'mistral-small-latest',
+        max_tokens:800,
+        messages:[
+          {role:'system',content:`Tu es juriste expert en droit du numérique (RGPD, AI Act, DSA, données de santé). Tu travailles pour Alex, juriste stagiaire en conformité. Réponses directes, précises, juridiques. Pas de formules creuses. Appuie-toi sur le contexte de veille fourni.\n\n${ctx}`},
+          {role:'user',content:q}
+        ]
       })
     });
-    const d = await res.json();
+    const d=await res.json();
     loadEl.remove();
-    addMsg(d.content?.[0]?.text || "Réponse indisponible.", 'bot');
-  } catch(e) {
+    addMsg(d.choices?.[0]?.message?.content||'Réponse indisponible.','bot');
+  } catch(e){
     loadEl.remove();
-    addMsg("Erreur de connexion à l'agent. Vérifiez votre connexion.", 'bot');
+    addMsg('Erreur de connexion à l\'agent Mistral.','bot');
   }
 }
 
-function quickChat(q) { document.getElementById('chat-input').value = q; sendChat(); }
-
-function addMsg(text, type) {
-  const box = document.getElementById('chat-messages');
-  const d = document.createElement('div');
-  d.className = `msg msg-${type.includes('bot')?'bot':'user'}${type.includes('loading')?' msg-loading':''}`;
-  d.innerHTML = text.replace(/\n/g,'<br>');
-  box.appendChild(d); box.scrollTop = box.scrollHeight;
+function quickChat(q){document.getElementById('chat-input').value=q;sendChat();}
+function addMsg(text,type){
+  const box=document.getElementById('chat-messages');
+  const d=document.createElement('div');
+  d.className=`msg msg-${type.includes('bot')?'bot':'user'}${type.includes('loading')?' msg-loading':''}`;
+  d.innerHTML=text.replace(/\n/g,'<br>');
+  box.appendChild(d);box.scrollTop=box.scrollHeight;
   return d;
 }
-
-document.getElementById('chat-input').addEventListener('keydown', e => {
-  if (e.key==='Enter' && !e.shiftKey){e.preventDefault();sendChat();}
+document.getElementById('chat-input').addEventListener('keydown',e=>{
+  if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendChat();}
 });
-
+document.getElementById('hdate').textContent=new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
 init();
 </script>
 </body>
