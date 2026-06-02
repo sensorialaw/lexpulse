@@ -1,0 +1,41 @@
+name: LexPulse — Veille Juridique
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # Chaque lundi à 7h (Paris)
+  workflow_dispatch:        # Lancement manuel possible
+
+jobs:
+  veille:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write       # pour pousser veille.json
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Installer les dépendances
+        run: pip install requests
+
+      - name: Générer la veille
+        env:
+          MISTRAL_API_KEY:  ${{ secrets.MISTRAL_API_KEY }}
+          GMAIL_USER:       ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASS:   ${{ secrets.GMAIL_APP_PASS }}
+          GMAIL_RECIPIENT:  ${{ secrets.GMAIL_RECIPIENT }}
+          PISTE_API_KEY:    ${{ secrets.PISTE_API_KEY }}
+        run: python veille_juridique.py
+
+      - name: Commit et push veille.json
+        run: |
+          git config user.name "LexPulse Bot"
+          git config user.email "actions@github.com"
+          git add data/veille.json
+          git commit -m "veille: mise à jour $(date +%Y-%m-%d)" || echo "Rien à commiter"
+          git push
