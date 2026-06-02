@@ -3,333 +3,331 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>LexPulse — Veille juridique numérique</title>
+<title>LexPulse — Veille droit du numérique</title>
 <style>
   :root {
-    --bg: #f8f7f4;
-    --surface: #ffffff;
-    --border: #e8e5df;
-    --text: #1a1a1a;
-    --muted: #6b6860;
-    --accent: #2d4a8a;
-    --accent-light: #eef2fb;
-    --tag-rgpd: #1d6e56; --tag-rgpd-bg: #e1f5ee;
-    --tag-ai: #533ab7; --tag-ai-bg: #eeedfe;
-    --tag-dsa: #993c1d; --tag-dsa-bg: #faece7;
-    --tag-sante: #185fa5; --tag-sante-bg: #e6f1fb;
-    --tag-juris: #854f0b; --tag-juris-bg: #faeeda;
-    --tag-legis: #3b6d11; --tag-legis-bg: #eaf3de;
+    --bg:#f8f7f4; --surface:#fff; --border:#e8e5df; --text:#1a1a1a;
+    --muted:#6b6860; --accent:#2d4a8a; --accent-light:#eef2fb;
+    --tag-rgpd:#1d6e56; --tag-rgpd-bg:#e1f5ee;
+    --tag-ai:#533ab7; --tag-ai-bg:#eeedfe;
+    --tag-dsa:#993c1d; --tag-dsa-bg:#faece7;
+    --tag-sante:#185fa5; --tag-sante-bg:#e6f1fb;
+    --tag-juris:#854f0b; --tag-juris-bg:#faeeda;
+    --tag-legis:#3b6d11; --tag-legis-bg:#eaf3de;
+    --tag-cyber:#5c2d8a; --tag-cyber-bg:#f0ebfe;
   }
-  * { box-sizing: border-box; margin: 0; padding: 0; }
-  body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif; background: var(--bg); color: var(--text); font-size: 15px; line-height: 1.6; }
-  a { color: var(--accent); text-decoration: none; }
-  a:hover { text-decoration: underline; }
-
-  /* HEADER */
-  header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 0 2rem; position: sticky; top: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; height: 56px; }
-  .logo { font-size: 18px; font-weight: 700; color: var(--accent); letter-spacing: -0.5px; }
-  .logo span { color: var(--text); font-weight: 400; font-size: 13px; margin-left: 8px; color: var(--muted); }
-  .header-date { font-size: 12px; color: var(--muted); }
-
-  /* LAYOUT */
-  .container { max-width: 1100px; margin: 0 auto; padding: 2rem 1.5rem; display: grid; grid-template-columns: 1fr 340px; gap: 2rem; }
-  @media (max-width: 800px) { .container { grid-template-columns: 1fr; } }
-
-  /* SECTION TITLES */
-  .section-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; color: var(--muted); border-bottom: 1px solid var(--border); padding-bottom: 8px; margin-bottom: 1.25rem; }
-
-  /* TAGS */
-  .tag { display: inline-block; font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; padding: 2px 7px; border-radius: 4px; }
-  .tag-rgpd { background: var(--tag-rgpd-bg); color: var(--tag-rgpd); }
-  .tag-ai { background: var(--tag-ai-bg); color: var(--tag-ai); }
-  .tag-dsa { background: var(--tag-dsa-bg); color: var(--tag-dsa); }
-  .tag-sante { background: var(--tag-sante-bg); color: var(--tag-sante); }
-  .tag-juris { background: var(--tag-juris-bg); color: var(--tag-juris); }
-  .tag-legis { background: var(--tag-legis-bg); color: var(--tag-legis); }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:var(--bg);color:var(--text);font-size:15px;line-height:1.6}
+  a{color:var(--accent);text-decoration:none} a:hover{text-decoration:underline}
+  header{background:var(--surface);border-bottom:1px solid var(--border);padding:0 2rem;position:sticky;top:0;z-index:100;display:flex;align-items:center;justify-content:space-between;height:56px}
+  .logo{font-size:18px;font-weight:700;color:var(--accent)}
+  .logo span{color:var(--muted);font-weight:400;font-size:13px;margin-left:8px}
+  .container{max-width:1100px;margin:0 auto;padding:2rem 1.5rem;display:grid;grid-template-columns:1fr 340px;gap:2rem}
+  @media(max-width:800px){.container{grid-template-columns:1fr}}
+  .section-title{font-size:11px;font-weight:600;text-transform:uppercase;letter-spacing:1px;color:var(--muted);border-bottom:1px solid var(--border);padding-bottom:8px;margin-bottom:1.25rem}
+  .tag{display:inline-block;font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;padding:2px 7px;border-radius:4px}
+  .tag-rgpd{background:var(--tag-rgpd-bg);color:var(--tag-rgpd)}
+  .tag-ai{background:var(--tag-ai-bg);color:var(--tag-ai)}
+  .tag-dsa{background:var(--tag-dsa-bg);color:var(--tag-dsa)}
+  .tag-sante{background:var(--tag-sante-bg);color:var(--tag-sante)}
+  .tag-juris{background:var(--tag-juris-bg);color:var(--tag-juris)}
+  .tag-legis{background:var(--tag-legis-bg);color:var(--tag-legis)}
+  .tag-cyber{background:var(--tag-cyber-bg);color:var(--tag-cyber)}
 
   /* NOTE HEBDO */
-  .note-hebdo { background: var(--surface); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; }
-  .note-hebdo-header { display: flex; align-items: flex-start; justify-content: space-between; margin-bottom: 1rem; }
-  .note-hebdo h2 { font-size: 20px; font-weight: 700; line-height: 1.3; }
-  .note-hebdo .meta { font-size: 12px; color: var(--muted); margin-top: 4px; }
-  .note-hebdo-body { font-size: 14px; line-height: 1.75; color: #2a2a2a; }
-  .note-hebdo-body h3 { font-size: 14px; font-weight: 600; margin: 1rem 0 0.4rem; color: var(--accent); }
-  .note-hebdo-body p { margin-bottom: 0.75rem; }
-  .note-hebdo-body .avant-apres { background: #f8f7f4; border-left: 3px solid var(--accent); padding: 0.75rem 1rem; border-radius: 0 6px 6px 0; margin: 0.75rem 0; font-size: 13px; }
-  .note-hebdo-body .avant-apres strong { display: block; margin-bottom: 2px; color: var(--accent); font-size: 11px; text-transform: uppercase; letter-spacing: 0.5px; }
-  .read-more { display: inline-block; margin-top: 1rem; font-size: 13px; color: var(--accent); font-weight: 500; cursor: pointer; border: none; background: none; padding: 0; }
+  .note-hebdo{background:var(--surface);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2rem}
+  .note-hebdo h2{font-size:19px;font-weight:700;line-height:1.3;margin-bottom:4px}
+  .note-meta{font-size:12px;color:var(--muted);margin-bottom:1rem}
+  .note-body{font-size:14px;line-height:1.8;color:#2a2a2a}
+  .note-body h3{font-size:14px;font-weight:600;margin:1.2rem 0 .4rem;color:var(--accent)}
+  .note-body p{margin-bottom:.75rem}
+  .note-body sup a{font-size:10px;color:var(--accent)}
+  .footnotes{margin-top:1.5rem;padding-top:1rem;border-top:1px solid var(--border);font-size:12px;color:var(--muted);line-height:1.8}
+  .footnotes ol{padding-left:1.2rem}
+  .read-more{display:inline-block;margin-top:1rem;font-size:13px;color:var(--accent);font-weight:500;cursor:pointer;border:none;background:none;padding:0}
 
-  /* ARTICLES COURTS */
-  .article-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 0.75rem; transition: border-color 0.15s; }
-  .article-card:hover { border-color: #b0bdd8; }
-  .article-card-header { display: flex; align-items: center; gap: 8px; margin-bottom: 6px; }
-  .article-card h3 { font-size: 14px; font-weight: 600; line-height: 1.4; margin-bottom: 4px; }
-  .article-card p { font-size: 13px; color: var(--muted); line-height: 1.55; }
-  .article-card .article-meta { font-size: 11px; color: var(--muted); margin-top: 8px; display: flex; align-items: center; gap: 12px; }
-  .article-card .impact { font-size: 11px; font-weight: 500; }
-  .impact-high { color: #a32d2d; }
-  .impact-med { color: #854f0b; }
-  .impact-low { color: #3b6d11; }
+  /* CARTE ARTICLE */
+  .card{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin-bottom:.75rem;transition:border-color .15s}
+  .card:hover{border-color:#b0bdd8}
+  .card-header{display:flex;align-items:center;gap:8px;margin-bottom:8px}
+  .card h3{font-size:14px;font-weight:600;line-height:1.4;margin-bottom:6px}
+  .card h3 a{color:var(--text)} .card h3 a:hover{color:var(--accent)}
+  .card p{font-size:13px;color:#3a3a3a;line-height:1.6;margin-bottom:6px}
+  .card-meta{font-size:11px;color:var(--muted);display:flex;align-items:center;gap:12px;flex-wrap:wrap;margin-top:10px}
+  .impact-high{color:#a32d2d;font-weight:500} .impact-med{color:#854f0b;font-weight:500} .impact-low{color:#3b6d11;font-weight:500}
+
+  /* FICHE ARRÊT */
+  .arret-section{margin-top:10px}
+  .arret-label{font-size:10px;font-weight:700;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:2px}
+  .arret-content{font-size:13px;color:#2a2a2a;line-height:1.6;margin-bottom:10px;padding-left:10px;border-left:2px solid var(--border)}
+  .arret-articles{display:flex;flex-wrap:wrap;gap:4px;margin-top:6px}
+  .arret-article-tag{font-size:10px;background:#f0f2f8;color:var(--accent);padding:2px 6px;border-radius:3px;border:1px solid #d0d8f0}
+  .arret-expand{font-size:12px;color:var(--accent);cursor:pointer;border:none;background:none;padding:0;margin-top:6px}
+  .arret-full{display:none}
+  .hal-resources{margin-top:10px;padding:10px 12px;background:#f8f7f4;border-radius:6px;border:1px solid var(--border)}
+  .hal-title{font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:.5px;color:var(--muted);margin-bottom:6px}
+  .hal-item{font-size:12px;line-height:1.5;margin-bottom:4px}
 
   /* SIDEBAR */
-  .sidebar {}
-  .widget { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 1.25rem; margin-bottom: 1.25rem; }
-  .widget-title { font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); margin-bottom: 1rem; }
-  .stat-row { display: flex; justify-content: space-between; align-items: center; padding: 6px 0; border-bottom: 1px solid var(--border); font-size: 13px; }
-  .stat-row:last-child { border-bottom: none; }
-  .stat-num { font-weight: 700; color: var(--accent); font-size: 18px; }
+  .widget{background:var(--surface);border:1px solid var(--border);border-radius:8px;padding:1.25rem;margin-bottom:1.25rem}
+  .widget-title{font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);margin-bottom:1rem}
+  .stat-row{display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid var(--border);font-size:13px}
+  .stat-row:last-child{border-bottom:none}
+  .stat-num{font-weight:700;color:var(--accent);font-size:18px}
 
   /* CHAT */
-  .chat-widget { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; overflow: hidden; }
-  .chat-title { padding: 1rem 1.25rem; font-size: 12px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.8px; color: var(--muted); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 6px; }
-  .chat-title::before { content: ''; width: 8px; height: 8px; border-radius: 50%; background: #3b6d11; display: inline-block; }
-  #chat-messages { height: 300px; overflow-y: auto; padding: 1rem; display: flex; flex-direction: column; gap: 0.75rem; }
-  .msg { max-width: 88%; font-size: 13px; line-height: 1.55; padding: 8px 12px; border-radius: 10px; }
-  .msg-bot { background: var(--accent-light); color: var(--text); align-self: flex-start; border-radius: 2px 10px 10px 10px; }
-  .msg-user { background: var(--accent); color: #fff; align-self: flex-end; border-radius: 10px 10px 2px 10px; }
-  .msg-loading { color: var(--muted); font-style: italic; }
-  .chat-input-area { padding: 0.75rem; border-top: 1px solid var(--border); display: flex; gap: 8px; }
-  #chat-input { flex: 1; border: 1px solid var(--border); border-radius: 6px; padding: 8px 10px; font-size: 13px; font-family: inherit; outline: none; resize: none; }
-  #chat-input:focus { border-color: var(--accent); }
-  #chat-send { background: var(--accent); color: #fff; border: none; border-radius: 6px; padding: 8px 14px; font-size: 13px; cursor: pointer; white-space: nowrap; }
-  #chat-send:hover { background: #1f3570; }
-  .suggestions { padding: 0 1rem 0.75rem; display: flex; flex-wrap: wrap; gap: 6px; }
-  .suggest-btn { font-size: 11px; border: 1px solid var(--border); border-radius: 20px; padding: 4px 10px; background: var(--bg); cursor: pointer; color: var(--muted); transition: all 0.15s; }
-  .suggest-btn:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-light); }
+  .chat-widget{background:var(--surface);border:1px solid var(--border);border-radius:8px;overflow:hidden}
+  .chat-title{padding:1rem 1.25rem;font-size:12px;font-weight:600;text-transform:uppercase;letter-spacing:.8px;color:var(--muted);border-bottom:1px solid var(--border);display:flex;align-items:center;gap:6px}
+  .chat-online::before{content:'';width:8px;height:8px;border-radius:50%;background:#3b6d11;display:inline-block}
+  #chat-messages{height:320px;overflow-y:auto;padding:1rem;display:flex;flex-direction:column;gap:.75rem}
+  .msg{max-width:90%;font-size:13px;line-height:1.6;padding:9px 13px;border-radius:10px}
+  .msg-bot{background:var(--accent-light);color:var(--text);align-self:flex-start;border-radius:2px 10px 10px 10px}
+  .msg-user{background:var(--accent);color:#fff;align-self:flex-end;border-radius:10px 10px 2px 10px}
+  .msg-loading{color:var(--muted);font-style:italic}
+  .chat-input-area{padding:.75rem;border-top:1px solid var(--border);display:flex;gap:8px}
+  #chat-input{flex:1;border:1px solid var(--border);border-radius:6px;padding:8px 10px;font-size:13px;font-family:inherit;outline:none;resize:none}
+  #chat-input:focus{border-color:var(--accent)}
+  #chat-send{background:var(--accent);color:#fff;border:none;border-radius:6px;padding:8px 14px;font-size:13px;cursor:pointer}
+  #chat-send:hover{background:#1f3570}
+  .suggestions{padding:0 1rem .75rem;display:flex;flex-wrap:wrap;gap:6px}
+  .suggest-btn{font-size:11px;border:1px solid var(--border);border-radius:20px;padding:4px 10px;background:var(--bg);cursor:pointer;color:var(--muted);transition:all .15s}
+  .suggest-btn:hover{border-color:var(--accent);color:var(--accent);background:var(--accent-light)}
 
-  /* LOADING */
-  #loading { text-align: center; padding: 3rem; color: var(--muted); font-size: 14px; }
-  .spinner { width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; margin: 0 auto 1rem; }
-  @keyframes spin { to { transform: rotate(360deg); } }
+  /* FILTRES */
+  .filters{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:1.25rem}
+  .filter-btn{font-size:12px;padding:4px 12px;border-radius:20px;border:1px solid var(--border);background:var(--surface);cursor:pointer;color:var(--muted);transition:all .15s}
+  .filter-btn.active{background:var(--accent);color:#fff;border-color:var(--accent)}
 
-  /* FILTERS */
-  .filters { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 1.25rem; }
-  .filter-btn { font-size: 12px; padding: 4px 12px; border-radius: 20px; border: 1px solid var(--border); background: var(--surface); cursor: pointer; color: var(--muted); transition: all 0.15s; }
-  .filter-btn.active { background: var(--accent); color: #fff; border-color: var(--accent); }
-  .filter-btn:hover:not(.active) { border-color: var(--accent); color: var(--accent); }
-
-  /* ALERT BANNER */
-  .update-banner { background: var(--accent-light); border: 1px solid #b0c0e0; border-radius: 8px; padding: 10px 16px; font-size: 13px; color: var(--accent); margin-bottom: 1.5rem; display: flex; align-items: center; gap: 8px; }
+  .banner{background:var(--accent-light);border:1px solid #b0c0e0;border-radius:8px;padding:10px 16px;font-size:13px;color:var(--accent);margin-bottom:1.5rem;display:flex;align-items:center;gap:8px}
+  #loading{text-align:center;padding:3rem;color:var(--muted);font-size:14px}
+  .spinner{width:32px;height:32px;border:3px solid var(--border);border-top-color:var(--accent);border-radius:50%;animation:spin .8s linear infinite;margin:0 auto 1rem}
+  @keyframes spin{to{transform:rotate(360deg)}}
 </style>
 </head>
 <body>
-
 <header>
   <div class="logo">LexPulse <span>Veille droit du numérique</span></div>
-  <div class="header-date" id="header-date"></div>
+  <div style="font-size:12px;color:var(--muted)" id="header-date"></div>
 </header>
 
-<div id="loading">
-  <div class="spinner"></div>
-  Chargement de la veille en cours…
-</div>
+<div id="loading"><div class="spinner"></div>Chargement de la veille…</div>
 
-<div class="container" id="main-content" style="display:none">
-
-  <!-- COLONNE PRINCIPALE -->
+<div class="container" id="main" style="display:none">
   <main>
-    <div class="update-banner" id="update-banner"></div>
-
-    <!-- NOTE HEBDOMADAIRE -->
+    <div class="banner" id="banner"></div>
     <div class="section-title">Note hebdomadaire</div>
-    <div class="note-hebdo" id="note-hebdo-container"></div>
-
-    <!-- ARTICLES COURTS -->
+    <div class="note-hebdo" id="note-container"></div>
     <div class="section-title" style="margin-top:2rem">Actualités récentes</div>
-    <div class="filters" id="filters">
-      <button class="filter-btn active" onclick="filterArticles('all')">Tout</button>
-      <button class="filter-btn" onclick="filterArticles('rgpd')">RGPD</button>
-      <button class="filter-btn" onclick="filterArticles('ai')">AI Act</button>
-      <button class="filter-btn" onclick="filterArticles('sante')">Santé</button>
-      <button class="filter-btn" onclick="filterArticles('juris')">Jurisprudence</button>
-      <button class="filter-btn" onclick="filterArticles('legis')">Législation</button>
+    <div class="filters">
+      <button class="filter-btn active" onclick="filter('all',this)">Tout</button>
+      <button class="filter-btn" onclick="filter('rgpd',this)">RGPD</button>
+      <button class="filter-btn" onclick="filter('ai',this)">AI Act</button>
+      <button class="filter-btn" onclick="filter('sante',this)">Santé</button>
+      <button class="filter-btn" onclick="filter('juris',this)">Jurisprudence</button>
+      <button class="filter-btn" onclick="filter('legis',this)">Législation</button>
+      <button class="filter-btn" onclick="filter('cyber',this)">Cyber</button>
     </div>
-    <div id="articles-container"></div>
+    <div id="articles"></div>
   </main>
-
-  <!-- SIDEBAR -->
-  <aside class="sidebar">
-
-    <!-- STATS -->
-    <div class="widget">
-      <div class="widget-title">Cette semaine</div>
-      <div id="stats-container"></div>
-    </div>
-
-    <!-- AGENT CONVERSATIONNEL -->
+  <aside>
+    <div class="widget"><div class="widget-title">Cette semaine</div><div id="stats"></div></div>
     <div class="chat-widget">
-      <div class="chat-title">Agent juridique</div>
+      <div class="chat-title"><span class="chat-online"></span>Agent juridique</div>
       <div id="chat-messages">
-        <div class="msg msg-bot">Bonjour ! Je suis votre assistant juridique. Posez-moi une question sur l'actualité de la semaine ou demandez-moi d'approfondir un sujet.</div>
+        <div class="msg msg-bot">Bonjour ! Posez-moi une question sur l'actualité juridique de la semaine, ou demandez-moi d'approfondir un sujet.</div>
       </div>
       <div class="suggestions" id="suggestions"></div>
       <div class="chat-input-area">
-        <textarea id="chat-input" rows="2" placeholder="Ex : Explique la décision CNIL sur Meta…"></textarea>
+        <textarea id="chat-input" rows="2" placeholder="Ex : Analyse la dernière décision CNIL…"></textarea>
         <button id="chat-send" onclick="sendChat()">Envoyer</button>
       </div>
     </div>
-
   </aside>
 </div>
 
 <script>
-const REPO_NAME = window.location.pathname.split('/')[1] || '';
-const DATA_URL = REPO_NAME ? `/${REPO_NAME}/data/veille.json` : 'data/veille.json';
-let allArticles = [];
-let veillData = null;
+const REPO = window.location.pathname.split('/').filter(Boolean)[0] || '';
+const DATA_URL = REPO ? `/${REPO}/data/veille.json` : '/data/veille.json';
+let allArticles = [], veille = null;
 
 async function init() {
   try {
     const r = await fetch(DATA_URL + '?t=' + Date.now());
-    if (!r.ok) throw new Error('no data');
-    veillData = await r.json();
-    render(veillData);
+    if (!r.ok) throw new Error();
+    veille = await r.json();
+    render(veille);
   } catch(e) {
-    document.getElementById('loading').innerHTML = '<p style="color:#a32d2d">Données non disponibles. Lancez le workflow GitHub Actions pour générer la première veille.</p>';
+    document.getElementById('loading').innerHTML = '<p style="color:#a32d2d;padding:2rem">Données non disponibles. Lancez le workflow GitHub Actions.</p>';
   }
 }
 
-function render(data) {
+function render(d) {
   document.getElementById('loading').style.display = 'none';
-  document.getElementById('main-content').style.display = 'grid';
-  document.getElementById('header-date').textContent = new Date(data.generated_at).toLocaleDateString('fr-FR', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
-  document.getElementById('update-banner').innerHTML = `<span>⟳</span> Dernière mise à jour : ${new Date(data.generated_at).toLocaleString('fr-FR')} — ${data.articles.length} actualités collectées depuis avril 2025`;
-
-  renderNoteHebdo(data.note_hebdo);
-  allArticles = data.articles;
+  document.getElementById('main').style.display = 'grid';
+  document.getElementById('header-date').textContent = new Date().toLocaleDateString('fr-FR',{weekday:'long',day:'numeric',month:'long',year:'numeric'});
+  document.getElementById('banner').innerHTML = `⟳ Dernière mise à jour : ${new Date(d.generated_at).toLocaleString('fr-FR')} — ${d.articles.length} actualités`;
+  renderNote(d.note_hebdo);
+  allArticles = d.articles;
   renderArticles(allArticles);
-  renderStats(data);
-  renderSuggestions(data.suggestions || []);
+  renderStats(d.stats||{});
+  renderSuggestions(d.suggestions||[]);
 }
 
-function renderNoteHebdo(note) {
-  const c = document.getElementById('note-hebdo-container');
-  c.innerHTML = `
-    <div class="note-hebdo-header">
-      <div>
-        <div style="display:flex;gap:6px;margin-bottom:8px">${(note.tags||[]).map(t=>`<span class="tag tag-${t.toLowerCase()}">${t}</span>`).join('')}</div>
-        <h2>${note.title}</h2>
-        <div class="meta">Semaine du ${note.week} · Note analytique</div>
-      </div>
+function renderNote(n) {
+  const tags = (n.tags||[]).map(t => `<span class="tag tag-${t.toLowerCase()}">${t}</span>`).join(' ');
+  const halSources = (n.hal_sources||[]).map(h =>
+    `<li><a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</li>`).join('');
+  document.getElementById('note-container').innerHTML = `
+    <div style="display:flex;gap:6px;margin-bottom:10px">${tags}</div>
+    <h2>${n.title}</h2>
+    <div class="note-meta">Semaine du ${n.week} · Note analytique</div>
+    <div class="note-body" id="note-short">${n.intro}</div>
+    <div class="note-body" id="note-full" style="display:none">${n.full_content}
+      ${halSources ? `<div class="footnotes"><div class="hal-title">Sources doctrinales</div><ol>${halSources}</ol></div>` : ''}
     </div>
-    <div class="note-hebdo-body" id="note-body-short">${note.intro}</div>
-    <div class="note-hebdo-body" id="note-body-full" style="display:none">${note.full_content}</div>
-    <button class="read-more" id="read-more-btn" onclick="toggleNote()">Lire la note complète →</button>
-  `;
+    <button class="read-more" id="note-btn" onclick="toggleNote()">Lire la note complète →</button>`;
 }
 
 function toggleNote() {
-  const s = document.getElementById('note-body-short');
-  const f = document.getElementById('note-body-full');
-  const b = document.getElementById('read-more-btn');
-  if (f.style.display === 'none') {
-    f.style.display = 'block'; s.style.display = 'none';
-    b.textContent = '← Réduire';
-  } else {
-    f.style.display = 'none'; s.style.display = 'block';
-    b.textContent = 'Lire la note complète →';
-  }
+  const s=document.getElementById('note-short'),f=document.getElementById('note-full'),b=document.getElementById('note-btn');
+  if(f.style.display==='none'){f.style.display='block';s.style.display='none';b.textContent='← Réduire';}
+  else{f.style.display='none';s.style.display='block';b.textContent='Lire la note complète →';}
 }
 
 function renderArticles(articles) {
-  const c = document.getElementById('articles-container');
+  const c = document.getElementById('articles');
   if (!articles.length) { c.innerHTML = '<p style="color:var(--muted);font-size:13px">Aucun article dans cette catégorie.</p>'; return; }
-  c.innerHTML = articles.map(a => `
-    <div class="article-card" data-cat="${a.category}">
-      <div class="article-card-header">
-        <span class="tag tag-${a.category}">${a.category_label}</span>
-        <span style="font-size:11px;color:var(--muted)">${a.date}</span>
-      </div>
-      <h3>${a.title}</h3>
-      <p>${a.summary}</p>
-      ${a.analysis ? `<div style="font-size:13px;color:var(--text);margin-top:8px;padding-top:8px;border-top:1px solid var(--border)">${a.analysis}</div>` : ''}
-      ${a.avant_apres ? `<div class="avant-apres"><strong>Avant / Après</strong>${a.avant_apres}</div>` : ''}
-      <div class="article-meta">
-        <span>Source : ${a.source}</span>
-        ${a.impact ? `<span class="impact impact-${a.impact_level}">Impact ${a.impact}</span>` : ''}
-        ${a.url ? `<a href="${a.url}" target="_blank" style="font-size:11px">Lire →</a>` : ''}
-      </div>
+  c.innerHTML = articles.map((a,i) => a.type === 'arret' ? renderArret(a,i) : renderCard(a,i)).join('');
+}
+
+function renderCard(a, i) {
+  const hal = (a.ressources_hal||[]).map(h =>
+    `<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
+  const arts = (a.articles_cites||[]).map(ar => `<span class="arret-article-tag">${ar}</span>`).join('');
+  return `<div class="card" data-cat="${a.category}">
+    <div class="card-header"><span class="tag tag-${a.category}">${a.category_label||''}</span><span style="font-size:11px;color:var(--muted)">${a.date||''}</span></div>
+    <h3><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h3>
+    <p>${a.summary||''}</p>
+    ${a.analysis ? `<p style="border-top:1px solid var(--border);padding-top:8px;margin-top:6px">${a.analysis}</p>` : ''}
+    ${a.portee ? `<p style="font-size:12px;color:var(--muted);font-style:italic">Portée : ${a.portee}</p>` : ''}
+    ${arts ? `<div class="arret-articles">${arts}</div>` : ''}
+    ${hal ? `<div class="hal-resources"><div class="hal-title">Doctrine & ressources</div>${hal}</div>` : ''}
+    <div class="card-meta">
+      <span>Source : <a href="${a.url||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
+      ${a.impact ? `<span class="impact-${a.impact_level}">Impact ${a.impact}</span>` : ''}
     </div>
-  `).join('');
+  </div>`;
 }
 
-function filterArticles(cat) {
+function renderArret(a, i) {
+  const arts = (a.articles_cites||[]).map(ar => `<span class="arret-article-tag">${ar}</span>`).join('');
+  const hal = (a.ressources_hal||[]).map(h =>
+    `<div class="hal-item">📄 <a href="${h.url}" target="_blank">${h.title}</a> — ${h.authors} (${h.date})</div>`).join('');
+  return `<div class="card" data-cat="juris">
+    <div class="card-header">
+      <span class="tag tag-juris">Jurisprudence</span>
+      <span style="font-size:11px;color:var(--muted)">${a.juridiction||a.source||''} · ${a.date||''}</span>
+    </div>
+    <h3><a href="${a.url||'#'}" target="_blank" rel="noopener">${a.title}</a></h3>
+    <div class="arret-section">
+      <div class="arret-label">Contexte</div>
+      <div class="arret-content">${a.contexte||''}</div>
+    </div>
+    <button class="arret-expand" onclick="toggleArret(${i})">Voir la fiche complète ↓</button>
+    <div id="arret-${i}" class="arret-full">
+      ${a.faits ? `<div class="arret-section"><div class="arret-label">Faits</div><div class="arret-content">${a.faits}</div></div>` : ''}
+      ${a.procedure ? `<div class="arret-section"><div class="arret-label">Procédure et prétentions</div><div class="arret-content">${a.procedure}</div></div>` : ''}
+      ${a.probleme_droit ? `<div class="arret-section"><div class="arret-label">Problème de droit</div><div class="arret-content" style="font-style:italic">${a.probleme_droit}</div></div>` : ''}
+      ${a.solution ? `<div class="arret-section"><div class="arret-label">Solution</div><div class="arret-content">${a.solution}</div></div>` : ''}
+      ${a.portee ? `<div class="arret-section"><div class="arret-label">Portée</div><div class="arret-content">${a.portee}</div></div>` : ''}
+      ${arts ? `<div class="arret-section"><div class="arret-label">Textes cités</div><div class="arret-articles">${arts}</div></div>` : ''}
+      ${hal ? `<div class="hal-resources" style="margin-top:12px"><div class="hal-title">Doctrine & ressources complémentaires</div>${hal}</div>` : ''}
+    </div>
+    <div class="card-meta">
+      <span>Source : <a href="${a.url||'#'}" target="_blank" rel="noopener">${a.source}</a></span>
+      ${a.impact ? `<span class="impact-${a.impact_level}">Impact ${a.impact}</span>` : ''}
+    </div>
+  </div>`;
+}
+
+function toggleArret(i) {
+  const el = document.getElementById(`arret-${i}`);
+  const btn = el.previousElementSibling;
+  if (el.style.display === 'none' || !el.style.display) {
+    el.style.display = 'block'; btn.textContent = 'Réduire ↑';
+  } else { el.style.display = 'none'; btn.textContent = 'Voir la fiche complète ↓'; }
+}
+
+function filter(cat, btn) {
   document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
-  event.target.classList.add('active');
-  const filtered = cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat);
-  renderArticles(filtered);
+  btn.classList.add('active');
+  renderArticles(cat === 'all' ? allArticles : allArticles.filter(a => a.category === cat));
 }
 
-function renderStats(data) {
-  const s = data.stats || {};
-  document.getElementById('stats-container').innerHTML = `
-    <div class="stat-row"><span>Textes collectés</span><span class="stat-num">${s.total||0}</span></div>
+function renderStats(s) {
+  document.getElementById('stats').innerHTML = `
+    <div class="stat-row"><span>Total collectés</span><span class="stat-num">${s.total||0}</span></div>
     <div class="stat-row"><span>RGPD / données</span><span class="stat-num">${s.rgpd||0}</span></div>
     <div class="stat-row"><span>AI Act / IA</span><span class="stat-num">${s.ai||0}</span></div>
     <div class="stat-row"><span>Santé / HDS</span><span class="stat-num">${s.sante||0}</span></div>
     <div class="stat-row"><span>Jurisprudence</span><span class="stat-num">${s.juris||0}</span></div>
-    <div class="stat-row"><span>Législation EU</span><span class="stat-num">${s.legis||0}</span></div>
-  `;
+    <div class="stat-row"><span>Législation / Cyber</span><span class="stat-num">${s.legis||0}</span></div>`;
 }
 
-function renderSuggestions(suggs) {
-  document.getElementById('suggestions').innerHTML = suggs.map(s =>
-    `<button class="suggest-btn" onclick="quickChat('${s.replace(/'/g,"\\'")} ')">${s}</button>`
-  ).join('');
+function renderSuggestions(s) {
+  document.getElementById('suggestions').innerHTML = s.map(q =>
+    `<button class="suggest-btn" onclick="quickChat(\`${q.replace(/`/g,'\\`')}\`)">${q}</button>`).join('');
 }
 
 async function sendChat() {
-  const input = document.getElementById('chat-input');
-  const q = input.value.trim();
-  if (!q) return;
-  input.value = '';
-  appendMsg(q, 'user');
-  const loading = appendMsg('…', 'bot loading');
+  const inp = document.getElementById('chat-input');
+  const q = inp.value.trim(); if (!q) return;
+  inp.value = '';
+  addMsg(q, 'user');
+  const loadEl = addMsg('…', 'bot loading');
 
-  const context = veillData ? `Voici les données de veille juridique disponibles (semaine du ${veillData.note_hebdo?.week}) :
-NOTE HEBDO: ${veillData.note_hebdo?.full_content?.replace(/<[^>]+>/g,'')||''}
-ARTICLES: ${(veillData.articles||[]).map(a=>`[${a.category_label}] ${a.title} — ${a.summary}`).join('\n')}` : '';
+  const ctx = veille ? `Données de veille (semaine du ${veille.note_hebdo?.week}) :
+NOTE : ${(veille.note_hebdo?.full_content||'').replace(/<[^>]+>/g,'').slice(0,1500)}
+ARTICLES : ${(veille.articles||[]).slice(0,15).map(a=>
+  `[${a.category_label}] ${a.title} — ${(a.summary||a.contexte||'').slice(0,120)}`).join('\n')}` : '';
 
   try {
-    const r = await fetch('https://api.anthropic.com/v1/messages', {
-      method: 'POST',
-      headers: {'Content-Type':'application/json'},
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
       body: JSON.stringify({
-        model: 'claude-sonnet-4-20250514',
-        max_tokens: 1000,
-        system: `Tu es un assistant juridique spécialisé en droit du numérique, RGPD, AI Act et droit de la santé. Tu travailles pour une juriste stagiaire (Alex) en conformité dans un contexte universitaire et institutionnel (AMU, AP-HM, CNRS). Réponds en français, de manière précise et analytique, comme un juriste s'adressant à un pair. Appuie-toi sur le contexte de veille fourni quand c'est pertinent.\n\n${context}`,
-        messages: [{role:'user', content:q}]
+        model:'claude-sonnet-4-20250514',
+        max_tokens:1000,
+        system:`Tu es un assistant juridique expert en droit du numérique, RGPD, AI Act et droit de la santé. Tu travailles pour Alex, juriste stagiaire en conformité (AMU, AP-HM, CNRS). Réponds en français direct et précis, comme à un pair juriste. Pas de formules creuses. Appuie-toi sur le contexte de veille fourni.
+
+${ctx}`,
+        messages:[{role:'user',content:q}]
       })
     });
-    const d = await r.json();
-    loading.remove();
-    appendMsg(d.content[0].text, 'bot');
+    const d = await res.json();
+    loadEl.remove();
+    addMsg(d.content?.[0]?.text || "Réponse indisponible.", 'bot');
   } catch(e) {
-    loading.remove();
-    appendMsg('Erreur de connexion à l\'agent.', 'bot');
+    loadEl.remove();
+    addMsg("Erreur de connexion à l'agent. Vérifiez votre connexion.", 'bot');
   }
 }
 
-function quickChat(q) {
-  document.getElementById('chat-input').value = q;
-  sendChat();
-}
+function quickChat(q) { document.getElementById('chat-input').value = q; sendChat(); }
 
-function appendMsg(text, type) {
+function addMsg(text, type) {
   const box = document.getElementById('chat-messages');
   const d = document.createElement('div');
   d.className = `msg msg-${type.includes('bot')?'bot':'user'}${type.includes('loading')?' msg-loading':''}`;
   d.innerHTML = text.replace(/\n/g,'<br>');
-  box.appendChild(d);
-  box.scrollTop = box.scrollHeight;
+  box.appendChild(d); box.scrollTop = box.scrollHeight;
   return d;
 }
 
 document.getElementById('chat-input').addEventListener('keydown', e => {
-  if (e.key === 'Enter' && !e.shiftKey) { e.preventDefault(); sendChat(); }
+  if (e.key==='Enter' && !e.shiftKey){e.preventDefault();sendChat();}
 });
 
-document.getElementById('header-date').textContent = new Date().toLocaleDateString('fr-FR', {weekday:'long', day:'numeric', month:'long', year:'numeric'});
 init();
 </script>
 </body>
