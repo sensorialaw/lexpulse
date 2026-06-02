@@ -204,7 +204,7 @@ strong{font-weight:700}
 <script>
 const REPO = window.location.pathname.split('/').filter(Boolean)[0]||'';
 const DATA_URL = REPO ? `/${REPO}/data/veille.json` : '/data/veille.json';
-const MISTRAL_KEY = 'RTjo3bnQX5PFGTtMLOYFvSzBEpsBv04n'
+const MISTRAL_KEY = 'MISTRAL_FRONT_KEY'; // à remplacer par ta clé Mistral
 let allArticles=[], veille=null;
 
 async function init(){
@@ -340,6 +340,22 @@ function renderStats(s){
 function renderSuggestions(s){
   document.getElementById('suggestions').innerHTML=s.map(q=>
     `<button class="sug-btn" onclick="quickChat(\`${q.replace(/`/g,"'")}\`)">${q}</button>`).join('');
+}
+
+// ── MARKDOWN → HTML ──
+function md(text){
+  if(!text) return '';
+  return text
+    .replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>')
+    .replace(/\*([^*]+)\*/g,'<em>$1</em>')
+    .replace(/#{3}\s*(.+)/g,'<h3>$1</h3>')
+    .replace(/#{2}\s*(.+)/g,'<h3>$1</h3>')
+    .replace(/#{1}\s*(.+)/g,'<h3>$1</h3>')
+    .replace(/\[([^\]]+)\]\(([^)]+)\)/g,'<a href="$2" target="_blank">$1</a>')
+    .replace(/\n\n/g,'</p><p>')
+    .replace(/\n/g,'<br>')
+    .replace(/^(.)/,'<p>$1')
+    .replace(/(.)$/,'$1</p>');
 }
 
 // ── AGENT MISTRAL (pas de CORS) ──
