@@ -173,7 +173,8 @@
 </div>
 
 <script>
-const DATA_URL = 'data/veille.json';
+const REPO_NAME = window.location.pathname.split('/')[1] || '';
+const DATA_URL = REPO_NAME ? `/${REPO_NAME}/data/veille.json` : 'data/veille.json';
 let allArticles = [];
 let veillData = null;
 
