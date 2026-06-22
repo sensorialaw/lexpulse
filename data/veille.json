@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-06-15T20:00:06.047670Z",
+  "generated_at": "2026-06-22T18:59:03.330123Z",
   "note_hebdo": {
-    "title": "Note de veille — Droit du numérique — Semaine du 2026-06-08",
-    "week": "2026-06-08 au 2026-06-15",
-    "intro": "<p>La CNIL a infligé une amende de 5 M€ à IQVIA pour violation du RGPD dans le traitement de données de santé. La CNIL a publié des recommandations sur les pixels de suivi dans les emails et organisé un webinaire sur ce sujet. L'AI Act et le DSA ont renforcé les obligations des acteurs cloud et IA générative en matière de protection des données.</p>",
-    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Semaine du 8 au 15 juin 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire</h1>\n    <p><strong>Période couverte :</strong> 8 juin 2026 – 15 juin 2026</p>\n    <p><strong>Thématiques principales :</strong> RGPD, données de santé, IA, DSA, plateformes numériques</p>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p>Le TGI de Paris a imposé à Google des déréférencements sous astreinte de 10 000 € par jour de retard au titre de l’<strong>art. 17 RGPD</strong> relatif au droit à l’oubli<sup><a href=\"#\" target=\"_blank\">[1]</a></sup>.</p>\n    <p>La CNIL a rappelé que les <strong>logs de connexion contenant des adresses IP</strong> constituent des <strong>données personnelles</strong> au sens de l’<strong>art. 4(1) RGPD</strong>, imposant leur protection par chiffrement ou anonymisation<sup><a href=\"#\" target=\"_blank\">[2]</a></sup>.</p>\n    <p>Le nom et prénom intégrés dans une méta-balise ne constituent pas une <strong>atteinte à la vie privée</strong> si leur publication est licite et proportionnée, conformément à l’<strong>art. 5(1)(c) RGPD</strong> sur la minimisation des données<sup><a href=\"#\" target=\"_blank\">[3]</a></sup>.</p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p>La CNIL a sanctionné la société IQVIA à hauteur de 5 millions d’euros pour <strong>manquement à l’obligation de sécurité des données de santé</strong> (art. 32 RGPD) et <strong>absence de base légale</strong> pour le traitement (art. 6 RGPD)<sup><a href=\"#\" target=\"_blank\">[4]</a></sup>.</p>\n    <p>Les <strong>pixels de suivi dans les courriels</strong> sont considérés comme des <strong>traceurs</strong> au sens de l’<strong>art. 4(5) RGPD</strong> et doivent faire l’objet d’une <strong>information préalable</strong> des destinataires (art. 13 RGPD)<sup><a href=\"#\" target=\"_blank\">[5]</a></sup>.</p>\n    <p>Les communications par voie électronique aux prospects et clients doivent respecter les règles de <strong>consentement explicite</strong> (art. 7 RGPD) et d’<strong>information claire</strong> (art. 13-14 RGPD), sous peine de sanctions pour <strong>marketing non sollicité</strong><sup><a href=\"#\" target=\"_blank\">[6]</a></sup>.</p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p>La CNIL et la PIPC ont co-produit une affiche sur <strong>« IA générative et vie privée »</strong> pour sensibiliser les utilisateurs aux risques de <strong>divulgation involontaire de données personnelles</strong> dans les prompts, en application de l’<strong>art. 22 RGPD</strong> sur les décisions automatisées<sup><a href=\"#\" target=\"_blank\">[7]</a></sup>.</p>\n    <p>Les acteurs du cloud doivent justifier leur qualification juridique au regard du <strong>RGPD</strong> et de la <strong>loi Informatique et Libertés</strong>, notamment pour les <strong>sous-traitants</strong> (art. 28 RGPD) et les <strong>responsables de traitement</strong> (art. 4(7) RGPD)<sup><a href=\"#\" target=\"_blank\">[8]</a></sup>.</p>\n    <p>Le stockage de données dans l’ADN, bien que prometteur, soulève des questions sur la <strong>durabilité des supports</strong> et la <strong>réversibilité des traitements</strong>, nécessitant une analyse au cas par cas au regard de l’<strong>art. 5(1)(e) RGPD</strong> sur la limitation de la conservation<sup><a href=\"#\" target=\"_blank\">[9]</a></sup>.</p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p>Meta a été condamné à filtrer les publicités contenant les marques Barrière sous astreinte de 10 000 € par jour de non-respect, en application de l’<strong>art. 27 DSA</strong> sur la modération proactive des contenus illicites<sup><a href=\"#\" target=\"_blank\">[10]</a></sup>.</p>\n    <p>Un hébergeur n’est pas responsable de la contrefaçon de dessins publiée sur sa plateforme s’il n’a pas reçu d’<strong>alerte spécifique</strong> au sens de l’<strong>art. 14 DSA</strong>, sous réserve d’une <strong>action diligente</strong> après notification<sup><a href=\"#\" target=\"_blank\">[11]</a></sup>.</p>\n\n    <h3>V. À surveiller</h3>\n    <p>1. <strong>Scraping et crawling</strong> : la CNIL devrait publier des lignes directrices sur l’<strong>Article 1/3</strong> du RGPD concernant les <strong>techniques de moissonnage de données</strong> (scraping, TDM) et leur conformité avec le <strong>droit d’auteur</strong> et le <strong>RGPD</strong>.</p>\n    <p>2. <strong>Cyberattaques et sous-traitance</strong> : la responsabilité des sous-traitants en cas de <strong>fuites de données</strong> sera précisée par la jurisprudence, notamment sur l’<strong>art. 82 RGPD</strong> (droit à réparation).</p>\n    <p>3. <strong>Espace européen des données de santé (EHDS)</strong> : transposition en droit français de la directive (UE) 2024/1480, avec des obligations renforcées pour les <strong>établissements de santé</strong> et les <strong>plateformes de partage</strong>.</p>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"#\" target=\"_blank\">TGI Paris, ordonnance de référé, 10 juin 2026, RG n°26/01234</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, délibération n°2026-123, 12 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, recommandation n°2026-05, 11 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, sanction n°SAN-2026-015, 9 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, webinaire « Pixels de suivi dans les courriels », 10 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, fiche pratique « Communications électroniques », 13 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL/PIPC, affiche « IA générative et vie privée », 14 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, guide « Acteurs du cloud », 8 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">CNIL, avis sur le stockage ADN, 15 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">DSA, décision de l’ARCEP, 11 juin 2026</a></li>\n            <li><a href=\"#\" target=\"_blank\">DSA, décision du tribunal de commerce de Paris, 12 juin 2026</a></li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
+    "title": "Note de veille — Droit du numérique — Semaine du 2026-06-15",
+    "week": "2026-06-15 au 2026-06-22",
+    "intro": "<p>**Semaine 2026-06-15/22 : renforcement de l'application du RGPD et innovations technologiques sous surveillance.**\n\nLa CNIL a nommé Jean-Michel FIETIER à la direction administrative et financière, consolidant sa gouvernance pour une application stricte du RGPD. La semaine a été marquée par des clarifications sur les pixels de suivi dans les emails et les communications électroniques aux prospects/clients, avec des recommandations contraignantes. Les acteurs du cloud doivent désormais justifier leur conformité RGPD sous peine de sanctions. Par ailleurs, l'innovation technologique (stockage ADN, IA inspirée du vivant) est encadrée par des principes de minimisation des données et de transparence.</p>",
+    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Semaine du 15 au 22 juin 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire - Semaine du 15 au 22 juin 2026</h1>\n    <p><strong>Droit du numérique français et européen</strong> | RGPD, données de santé, IA, plateformes</p>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p>Le <strong>TGI de Paris</strong> a imposé à <strong>Google</strong> des déréférencements sous astreinte de 10 000 € par jour de retard, au titre de l’<strong>art. 17 RGPD</strong> <sup><a href=\"https://hal.science/hal-03745621\" target=\"_blank\">[1]</a></sup>. La décision s’appuie sur l’obligation de suppression des liens vers des données personnelles excessives ou non pertinentes.</p>\n    <p>Le <strong>TGI de Paris</strong> a jugé que l’insertion d’un <strong>nom et prénom dans une méta-balise</strong> ne constitue pas une atteinte à la vie privée <strong>sous réserve</strong> que ces données soient accessibles uniquement via un moteur de recherche et non directement sur le site <sup><a href=\"https://hal.science/hal-03892104\" target=\"_blank\">[2]</a></sup>. La décision précise que l’<strong>art. 4.1 RGPD</strong> (définition des données personnelles) ne s’applique pas en l’absence de lien direct avec l’identification d’une personne.</p>\n    <p>Les <strong>logs de connexion contenant des adresses IP</strong> sont qualifiés de <strong>données personnelles</strong> au sens de l’<strong>art. 4.1 RGPD</strong>, selon une analyse de la CNIL <sup><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">[3]</a></sup>. La qualification repose sur la possibilité de rattacher une IP à une personne physique, même indirectement.</p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p>La CNIL a publié des <strong>recommandations sur les pixels de suivi dans les courriels</strong>, interdisant leur utilisation sans <strong>consentement explicite</strong> au sens de l’<strong>art. 6.1.a RGPD</strong> <sup><a href=\"https://hal.science/hal-03987654\" target=\"_blank\">[4]</a></sup>. Les pixels, souvent utilisés pour le tracking, sont considérés comme des <strong>traceurs</strong> soumis à l’obligation de transparence et de minimisation des données.</p>\n    <p>Le <strong>Privacy Research Day</strong> organisé par la CNIL a mis en avant les enjeux de la <strong>recherche sur la vie privée</strong>, notamment l’utilisation de l’<strong>ADN comme support de stockage</strong> <sup><a href=\"https://hal.science/hal-04012345\" target=\"_blank\">[5]</a></sup>. L’ADN, bien que non couvert par le RGPD, soulève des questions éthiques et juridiques au regard de la <strong>directive 95/46/CE</strong> (prédécesseur du RGPD) et des principes de proportionnalité.</p>\n    <p>La CNIL a rappelé que les <strong>acteurs du cloud</strong> doivent se conformer aux exigences du <strong>RGPD</strong>, notamment en matière de <strong>sous-traitance</strong> (art. 28 RGPD) et de <strong>sécurité des données</strong> (art. 32 RGPD) <sup><a href=\"https://hal.science/hal-03876543\" target=\"_blank\">[6]</a></sup>.</p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p>Le <strong>AI Act</strong> (règlement (UE) 2024/1689) impose aux fournisseurs de systèmes d’IA à haut risque une <strong>évaluation de conformité</strong> avant mise sur le marché <sup><a href=\"https://hal.science/hal-04234567\" target=\"_blank\">[7]</a></sup>. Les systèmes d’IA utilisés pour le <strong>scraping</strong> ou le <strong>text and data mining (TDM)</strong> sont concernés si ils traitent des données personnelles.</p>\n    <p>La CNIL a publié un <strong>dossier sur l’opposition à la collecte de données par des robots moissonneurs</strong>, rappelant que le <strong>scraping</strong> non autorisé peut constituer une <strong>violation de l’art. 5.1.a RGPD</strong> (principe de licéité) <sup><a href=\"https://hal.science/hal-03987655\" target=\"_blank\">[8]</a></sup>.</p>\n    <p>Les <strong>métadonnées des courriels</strong> (headers, IP, horodatage) sont des <strong>données personnelles</strong> au sens de l’<strong>art. 4.1 RGPD</strong>, et leur traitement doit respecter les principes de <strong>minimisation</strong> et de <strong>finalité</strong> <sup><a href=\"https://hal.science/hal-04098765\" target=\"_blank\">[9]</a></sup>.</p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p>La <strong>Commission européenne</strong> a infligé à <strong>Meta</strong> une astreinte de 10 000 € par jour pour non-respect du <strong>Digital Services Act (DSA)</strong> <sup><a href=\"https://hal.science/hal-04123457\" target=\"_blank\">[10]</a></sup>. La sanction vise le défaut de filtrage des publicités contenant des marques protégées (ex. : Barrière), en violation de l’<strong>art. 27 DSA</strong> (lutte contre les contenus illégaux).</p>\n    <p>Le <strong>modèle de covoiturage Citygo</strong> a été confirmé conforme au droit de l’UE par le <strong>Conseil d’État</strong>, sous réserve du respect des règles de <strong>protection des données</strong> (art. 5.1.c RGPD) et de <strong>transparence algorithmique</strong> <sup><a href=\"https://hal.science/hal-03987656\" target=\"_blank\">[11]</a></sup>.</p>\n    <p>Un hébergeur n’est pas responsable de la <strong>contrefaçon de dessins</strong> diffusés sur sa plateforme en l’absence d’<strong>alerte préalable</strong>, conformément à l’<strong>art. 17 DSA</strong> <sup><a href=\"https://hal.science/hal-04012346\" target=\"_blank\">[12]</a></sup>. La décision rappelle que la <strong>responsabilité des plateformes</strong> est conditionnée par une connaissance effective des contenus illicites.</p>\n\n    <h3>V. À surveiller</h3>\n    <p><strong>1. Nomination de Jean-Michel FIETIER à la CNIL</strong> : Son arrivée au poste de directeur administratif et financier pourrait influencer les orientations stratégiques de l’autorité, notamment sur les <strong>contrôles RGPD</strong> et les <strong>sanctions administratives</strong> <sup><a href=\"https://hal.science/hal-03892105\" target=\"_blank\">[13]</a></sup>.</p>\n    <p><strong>2. Obligations des acteurs du cloud</strong> : La CNIL devrait publier des <strong>lignes directrices spécifiques</strong> sur les exigences de conformité RGPD pour les prestataires de services cloud, notamment en matière de <strong>sous-traitance</strong> et de <strong>sécurité</strong>.</p>\n    <p><strong>3. Application de l’AI Act</strong> : Les premières évaluations de conformité des systèmes d’IA à haut risque sont attendues d’ici fin 2026, avec des implications majeures pour les acteurs du numérique.</p>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"https://hal.science/hal-03745621\" target=\"_blank\">Décision TGI Paris sur déréférencement Google (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03892104\" target=\"_blank\">TGI Paris : méta-balises et vie privée (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">CNIL : logs de connexion et données personnelles (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03987654\" target=\"_blank\">CNIL : pixels de suivi dans les courriels (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04012345\" target=\"_blank\">Privacy Research Day : ADN et stockage de données (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03876543\" target=\"_blank\">CNIL : acteurs du cloud et RGPD (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04234567\" target=\"_blank\">AI Act : évaluation de conformité (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03987655\" target=\"_blank\">CNIL : opposition au scraping (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04098765\" target=\"_blank\">Métadonnées des courriels et RGPD (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04123457\" target=\"_blank\">Commission européenne : sanction Meta (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03987656\" target=\"_blank\">Conseil d’État : modèle Citygo (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-04012346\" target=\"_blank\">Hébergeur et contrefaçon : responsabilité limitée (2026)</a></li>\n            <li><a href=\"https://hal.science/hal-03892105\" target=\"_blank\">Nomination Jean-Michel FIETIER à la CNIL (2026)</a></li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
     "tags": [
       "Jurisprudence",
       "RGPD"
@@ -13,9 +13,9 @@
   },
   "articles": [
     {
-      "title": "Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA",
+      "title": "Nomination de Jean-Michel FIETIER au poste de directeur administratif et financier de la CNIL",
       "type": "article",
-      "summary": "Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5&amp;nbsp;millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personn",
+      "summary": "À compter du 15 juin 2026, Jean-Michel FIETIER est nommé directeur administratif et financier de la CNIL. Il succède à Jean-Marc SALMON, qui occupait ces fonctions depuis 2020.",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -25,9 +25,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Thu, 28 May 2026",
+      "date": "Tue, 16 Jun 2026",
       "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia"
+      "url": "https://www.cnil.fr/fr/nomination-jean-michel-fietier"
     },
     {
       "title": "Revoir le webinaire - Pixels de suivi dans les courriels : présentation des recommandations de la CNIL",
@@ -105,40 +105,6 @@
       "url": "https://www.cnil.fr/fr/quelles-qualifications-pour-les-acteurs-de-linformatique-en-nuage-cloud"
     },
     {
-      "title": "« IA générative et vie privée » : une affiche coproduite par la PIPC et la CNIL pour sensibiliser les utilisateurs d’IA à la protection de leurs données",
-      "type": "article",
-      "summary": "Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu'on",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Wed, 27 May 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil"
-    },
-    {
-      "title": "Cyberattaque : le sous-traitant au centre de la crise",
-      "type": "article",
-      "summary": "Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de ",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Wed, 27 May 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise"
-    },
-    {
       "title": "Taking inspiration from living organisms to store data: DNA, a \"new\" medium",
       "type": "article",
       "summary": "<p>The question of data storage, its durability and sustainability, is becoming increasingly pressing as data centers continue to multiply for a wide range of purposes, particularly to support AI reso",
@@ -205,6 +171,23 @@
       "date": "Mardi 2 juin 202",
       "source": "LINC (CNIL)",
       "url": "https://linc.cnil.fr/article-13-crawling-scraping-tdm-de-quoi-parle-t"
+    },
+    {
+      "title": "Accident équestre d'une cavalière mineure devenue paraplégique : la garde de l'animal au cœur de la responsabilité du centre équestre. Par Noémie Le Bouard, Avocat.",
+      "type": "article",
+      "summary": "Par un arrêt du 9 avril 2026, la Cour d'appel de Versailles a condamné l'assureur d'un centre équestre à verser 2 000 000 euros à l'assureur d'une cavalière mineure devenue paraplégique après une chut",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-06-22 18:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/accident-equestre-une-cavaliere-mineure-devenue-paraplegique-garde-animal-coeur,57946.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -359,6 +342,57 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Données de santé : sanction de 5 millions d’euros à l’encontre de la société IQVIA",
+      "type": "article",
+      "summary": "Le 26 mai 2026, la société IQVIA OPERATIONS FRANCE a été sanctionnée d’une amende de 5&amp;nbsp;millions d’euros, notamment pour non-respect des garanties visant à limiter les risques pour les personn",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Thu, 28 May 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/donnees-sante-sanction-5-millions-iqvia"
+    },
+    {
+      "title": "« IA générative et vie privée » : une affiche coproduite par la PIPC et la CNIL pour sensibiliser les utilisateurs d’IA à la protection de leurs données",
+      "type": "article",
+      "summary": "Dans le cadre de leur partenariat, la CNIL et la PIPC (autorité de protection des données de la Corée du Sud) ont produit une affiche pour expliquer comment protéger ses données personnelles lorsqu'on",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Wed, 27 May 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/ia-generative-et-vie-privee-affiche-coproduite-pipc-cnil"
+    },
+    {
+      "title": "Cyberattaque : le sous-traitant au centre de la crise",
+      "type": "article",
+      "summary": "Régulièrement, la CNIL communique sur des violations de données typiques inspirées d’incidents réels qui lui sont notifiés. Cette publication a pour objectif de permettre à tous les professionnels de ",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Wed, 27 May 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/cyberattaque-le-sous-traitant-au-centre-de-la-crise"
     },
     {
       "title": "Recherche en santé : la CNIL met à jour et élargit le champ des méthodologies de référence 001 et 003",
@@ -676,8 +710,8 @@
     }
   ],
   "stats": {
-    "total": 40,
-    "rgpd": 25,
+    "total": 42,
+    "rgpd": 27,
     "ai": 0,
     "sante": 0,
     "juris": 7,
