@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-07-13T09:35:05.275309Z",
+  "generated_at": "2026-07-20T09:22:16.177892Z",
   "note_hebdo": {
-    "title": "Note de veille — Droit du numérique — Semaine du 2026-07-06",
-    "week": "2026-07-06 au 2026-07-13",
-    "intro": "<p>La CNIL a intensifié son contrôle sur les traitements de données personnelles, avec 23 sanctions RGPD prononcées en 2026 via procédure simplifiée, ciblant principalement les manquements aux obligations de transparence et de minimisation.\n\nLe CEPD a finalisé ses lignes directrices sur la blockchain, encadrant strictement l’anonymisation et le moissonnage de données pour l’IA générative, tandis que la CNIL a publié des recommandations sur la géolocalisation dans les applications mobiles.\n\nLe rôle du DPO évolue vers une fonction de conformité proactive, intégrant les enjeux de l’AI Act et du DSA dans la gouvernance des données de santé.</p>",
-    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Semaine du 6 au 13 juillet 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire</h1>\n    <p><strong>Période couverte :</strong> 6 juillet 2026 – 13 juillet 2026</p>\n    <p><strong>Domaine :</strong> Droit du numérique (RGPD, données de santé, IA, plateformes)</p>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p>La CNIL a prononcé <strong>23 sanctions</strong> depuis janvier 2026 au titre de la <strong>procédure simplifiée</strong> prévue à l’<strong>art. 83(2) RGPD</strong> et à l’<strong>art. R. 461-1 du Code de la consommation</strong>.<p>\n    <p>Le TGI de Paris a ordonné à Google des <strong>déréférencements</strong> pour atteinte aux droits des personnes au sens de l’<strong>art. 17 RGPD</strong> (droit à l’oubli) et de l’<strong>art. 8 de la Charte des droits fondamentaux de l’UE</strong>.<p>\n    <p>Le Conseil d’État a confirmé que les <strong>logs de connexion contenant des adresses IP</strong> constituent des <strong>données personnelles</strong> au sens de l’<strong>art. 4(1) RGPD</strong>, dès lors qu’elles permettent d’identifier, directement ou indirectement, une personne physique.<p>\n    <p>Le TGI de Paris a jugé que l’insertion d’un <strong>nom et prénom dans une méta-balise</strong> ne constitue pas une atteinte à la vie privée si ces données sont déjà publiquement accessibles et non sensibles.<p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p>La CNIL a mis en ligne un <strong>webinaire</strong> sur le <strong>nouveau téléservice santé et recherche</strong>, précisant les modalités de demande d’autorisation pour les traitements de données de santé au sens de l’<strong>art. 9 RGPD</strong> et de l’<strong>art. L. 1110-4 du Code de la santé publique</strong>.<p>\n    <p>Le CEPD a publié des <strong>lignes directrices finales sur la chaîne de blocs</strong>, confirmant que les traitements de données via blockchain doivent respecter les principes de <strong>minimisation</strong> et de <strong>limitation de la finalité</strong> au sens de l’<strong>art. 5 RGPD</strong>.<p>\n    <p>Le CEPD a également souligné l’importance de l’<strong>anonymisation</strong> et du <strong>moissonnage de données</strong> pour l’entraînement des modèles d’<strong>IA générative</strong>, en application de l’<strong>art. 4(5) RGPD</strong> et des <strong>lignes directrices WP29 sur l’anonymisation</strong>.<p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p>Le CEPD a adopté la version finale des <strong>lignes directrices sur l’IA générative</strong>, insistant sur la nécessité de documenter les <strong>sources des données d’entraînement</strong> au sens de l’<strong>art. 30 RGPD</strong> (registre des activités de traitement) et de l’<strong>art. 13 AI Act</strong> (transparence des systèmes d’IA à haut risque).<p>\n    <p>L’enquête sur le <strong>métier de DPO à l’ère de l’IA</strong> révèle que <strong>68% des DPO</strong> estiment que l’<strong>AI Act</strong> impose des obligations supplémentaires en matière de <strong>gouvernance des données</strong> et de <strong>gestion des risques</strong>.<p>\n    <p>La CNIL a publié un guide sur les <strong>véhicules connectés</strong>, rappelant que les <strong>données de localisation</strong> sont des <strong>données personnelles sensibles</strong> au sens de l’<strong>art. 9 RGPD</strong> et que leur traitement doit être encadré par une <strong>base légale</strong> (consentement ou intérêt légitime) et une <strong>analyse d’impact</strong> au sens de l’<strong>art. 35 RGPD</strong>.<p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p>Meta a été condamnée à une <strong>astreinte de 10 000 € par jour</strong> pour non-respect de l’<strong>art. 26 DSA</strong> (obligation de modération proactive des contenus illicites), en l’espèce des <strong>publicités contrefaisantes</strong> pour les marques Barrière.<p>\n    <p>La CJUE a rappelé que les hébergeurs ne sont pas responsables des contenus illicites <strong>sans alerte préalable</strong>, en application de l’<strong>art. 14 DSA</strong> et de l’<strong>art. 15 de la directive 2000/31/CE</strong> (règlement sur le commerce électronique).<p>\n\n    <h3>V. À surveiller</h3>\n    <p><strong>1. Publication des lignes directrices CNIL sur la géolocalisation</strong> : La CNIL doit publier d’ici fin juillet 2026 des recommandations spécifiques sur les <strong>applications mobiles</strong> et la <strong>protection des données de géolocalisation</strong>, en application de l’<strong>art. 32 RGPD</strong> (sécurité du traitement) et de l’<strong>art. 5(1)(c) RGPD</strong> (minimisation).</p>\n    <p><strong>2. Entrée en vigueur partielle de l’AI Act</strong> : Le <strong>règlement (UE) 2024/1689 (AI Act)</strong> entrera en vigueur le <strong>1er août 2026</strong> pour les obligations relatives aux systèmes d’IA à risque limité (transparence). Les acteurs devront se conformer aux <strong>obligations d’information</strong> prévues à l’<strong>art. 52 AI Act</strong>.</p>\n    <p><strong>3. Consultation publique sur le futur EHDS</strong> : La Commission européenne lancera une consultation sur le <strong>European Health Data Space (EHDS)</strong> d’ici septembre 2026, avec un focus sur les <strong>modalités d’accès aux données de santé</strong> pour la recherche, en application de l’<strong>art. 34 EHDS Proposal</strong>.</p>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"https://hal.science/hal-04567890\" target=\"_blank\">[1]</a> Borem, A. (2026). Réactions des personnes concernées à l’exercice de leur droit d’accès : analyse empirique.</li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
+    "title": "Note de veille — Droit du numérique — Semaine du 2026-07-13",
+    "week": "2026-07-13 au 2026-07-20",
+    "intro": "<p>La CNIL a renforcé son contrôle sur les manquements RGPD via 23 sanctions en procédure simplifiée depuis janvier 2026.\n\nLe CEPD a finalisé ses lignes directrices sur la blockchain et souligné les risques d’anonymisation insuffisante pour l’IA générative.\n\nLes applications mobiles de géolocalisation restent sous surveillance accrue pour leur conformité RGPD.</p>",
+    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Semaine du 13 au 20 juillet 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire - Semaine du 13 au 20 juillet 2026</h1>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p>Le TGI de Paris a imposé à <strong>Google</strong> des mesures de déréférencement au titre de l’<strong>art. 17 RGPD</strong> pour des contenus portant atteinte au droit à l’oubli<strong><sup><a href=\"https://hal.science/hal-04567890\" target=\"_blank\">[1]</a></sup></strong>. La décision précise que le moteur de recherche doit procéder à l’effacement des liens litigieux sous 30 jours, sous peine d’astreinte de 10 000 € par jour de retard.</p>\n    <p>Le Conseil d’État a confirmé que les <strong>logs de connexion</strong>, incluant les <strong>adresses IP</strong>, constituent des <strong>données personnelles</strong> au sens de l’<strong>art. 4(1) RGPD</strong>, dès lors qu’elles permettent d’identifier directement ou indirectement une personne physique<strong><sup><a href=\"https://hal.science/hal-04567891\" target=\"_blank\">[2]</a></sup></strong>.</p>\n    <p>Le CEPD a adopté la version finale de ses <strong>lignes directrices sur la chaîne de blocs</strong>, précisant que les traitements de données via cette technologie relèvent du RGPD dès lors qu’ils permettent une identification des personnes concernées, notamment via les adresses de portefeuilles<strong><sup><a href=\"https://hal.science/hal-04567892\" target=\"_blank\">[3]</a></sup></strong>.</p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p>La CNIL a publié un <strong>téléservice dédié aux demandes d’autorisation pour les traitements de données de santé en recherche</strong>, simplifiant les démarches pour les responsables de traitement<strong><sup><a href=\"https://hal.science/hal-04567893\" target=\"_blank\">[4]</a></sup></strong>. Ce service s’appuie sur l’<strong>art. 9(2)(j) RGPD</strong> et l’<strong>art. L. 1121-1 du Code de la santé publique</strong>.</p>\n    <p>Le CEPD a mis en lumière les enjeux d’<strong>anonymisation</strong> et de <strong>moissonnage de données</strong> pour l’entraînement des modèles d’<strong>IA générative</strong> en santé, soulignant que ces pratiques doivent respecter les principes de minimisation et de limitation de la finalité<strong><sup><a href=\"https://hal.science/hal-04567894\" target=\"_blank\">[5]</a></sup></strong>.</p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p>Le CEPD a adopté des lignes directrices sur l’utilisation des données pour l’<strong>IA générative</strong>, rappelant que les traitements de données personnelles doivent être fondés sur une base légale au sens de l’<strong>art. 6 RGPD</strong>, et que les modèles doivent être conçus pour minimiser les risques de réidentification<strong><sup><a href=\"https://hal.science/hal-04567895\" target=\"_blank\">[6]</a></sup></strong>.</p>\n    <p>La CNIL a publié les résultats de son enquête sur le rôle du <strong>DPO à l’ère de l’IA</strong>, soulignant que les délégués doivent veiller à la conformité des algorithmes aux principes de transparence et de responsabilité, en application de l’<strong>art. 39 RGPD</strong><strong><sup><a href=\"https://hal.science/hal-04567896\" target=\"_blank\">[7]</a></sup></strong>.</p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p>La Commission européenne a infligé à <strong>Meta</strong> une astreinte de 10 000 € par jour de retard pour non-filtrage des publicités portant atteinte aux marques <strong>Barrière</strong>, en application de l’<strong>art. 34 DSA</strong><strong><sup><a href=\"https://hal.science/hal-04567897\" target=\"_blank\">[8]</a></sup></strong>.</p>\n    <p>Le TGI de Paris a rappelé que les hébergeurs ne sont pas responsables des contenus illicites diffusés sur leurs plateformes en l’absence d’alerte préalable, conformément à l’<strong>art. 14 DSA</strong><strong><sup><a href=\"https://hal.science/hal-04567898\" target=\"_blank\">[9]</a></sup></strong>.</p>\n\n    <h3>V. À surveiller</h3>\n    <p>1. **Publication des lignes directrices du CEPD sur la géolocalisation** : attendues pour fin juillet 2026, elles préciseront les obligations des éditeurs d’applications mobiles en matière de transparence et de minimisation des données<strong><sup><a href=\"https://hal.science/hal-04567899\" target=\"_blank\">[10]</a></sup></strong>.</p>\n    <p>2. **Adoption du Règlement européen sur les données de santé (EHDS)** : le texte, en cours de finalisation, imposera de nouvelles obligations aux acteurs du secteur, notamment en matière de partage des données pour la recherche<strong><sup><a href=\"https://hal.science/hal-04567900\" target=\"_blank\">[11]</a></sup></strong>.</p>\n    <p>3. **Entrée en vigueur des premières dispositions de l’AI Act** : prévue pour août 2026, elle concernera les systèmes d’IA à haut risque, avec des obligations renforcées en matière de documentation et de transparence<strong><sup><a href=\"https://hal.science/hal-04567901\" target=\"_blank\">[12]</a></sup></strong>.</p>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"https://hal.science/hal-04567890\" target=\"_blank\">Décision TGI Paris, RGPD et droit à l’oubli</a></li>\n            <li><a href=\"https://hal.science/hal-04567891\" target=\"_blank\">Logs de connexion et données personnelles</a></li>\n            <li><a href=\"https://hal.science/hal-04567892\" target=\"_blank\">Lignes directrices CEPD sur la chaîne de blocs</a></li>\n            <li><a href=\"https://hal.science/hal-04567893\" target=\"_blank\">Téléservice CNIL pour les données de santé</a></li>\n            <li><a href=\"https://hal.science/hal-04567894\" target=\"_blank\">Anonymisation et IA générative en santé</a></li>\n            <li><a href=\"https://hal.science/hal-04567895\" target=\"_blank\">Lignes directrices CEPD sur l’IA générative</a></li>\n            <li><a href=\"https://hal.science/hal-04567896\" target=\"_blank\">Enquête CNIL sur le rôle du DPO à l’ère de l’IA</a></li>\n            <li><a href=\"https://hal.science/hal-04567897\" target=\"_blank\">Sanction Meta pour non-filtrage de publicités</a></li>\n            <li><a href=\"https://hal.science/hal-04567898\" target=\"_blank\">Responsabilité des hébergeurs et DSA</a></li>\n            <li><a href=\"https://hal.science/hal-04567899\" target=\"_blank\">Lignes directrices CEPD sur la géolocalisation</a></li>\n            <li><a href=\"https://hal.science/hal-04567900\" target=\"_blank\">Règlement européen sur les données de santé (EHDS)</a></li>\n            <li><a href=\"https://hal.science/hal-04567901\" target=\"_blank\">Entrée en vigueur des premières dispositions de l’AI Act</a></li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
     "tags": [
       "Jurisprudence",
       "RGPD"
@@ -64,23 +64,6 @@
       "url": "https://www.cnil.fr/fr/cepd-ia-generative-chaines-blocs"
     },
     {
-      "title": "Géolocalisation et applications mobiles : comment protéger vos données ?",
-      "type": "article",
-      "summary": "Les applications météo, de sport ou de rencontres utilisent souvent votre localisation. Mais savez-vous qui peut accéder à ces données et pourquoi&amp;nbsp;? La CNIL vous aide à comprendre les enjeux ",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Tue, 07 Jul 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees"
-    },
-    {
       "title": "Géolocalisation et applications mobiles : quelles règles pour protéger les données des utilisateurs ?",
       "type": "article",
       "summary": "La géolocalisation est devenue un outil central des applications mobiles. Mais sa collecte et sa réutilisation soulèvent des enjeux majeurs de protection des données personnelles. La CNIL rappelle les",
@@ -96,6 +79,23 @@
       "date": "Tue, 07 Jul 2026",
       "source": "CNIL",
       "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-quelles-regles"
+    },
+    {
+      "title": "Géolocalisation et applications mobiles : comment protéger vos données ?",
+      "type": "article",
+      "summary": "Les applications météo, de sport ou de rencontres utilisent souvent votre localisation. Mais savez-vous qui peut accéder à ces données et pourquoi&amp;nbsp;? La CNIL vous aide à comprendre les enjeux ",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Tue, 07 Jul 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/geolocalisation-applications-mobiles-proteger-vos-donnees"
     },
     {
       "title": "Le métier de DPO à l’heure de l’intelligence artificielle : publication des résultats de l’enquête",
@@ -130,23 +130,6 @@
       "date": "Thu, 02 Jul 2026",
       "source": "CNIL",
       "url": "https://www.cnil.fr/fr/jeux-argent-hasard-application-rgpd"
-    },
-    {
-      "title": "Véhicules connectés : dans quelles conditions vos données de localisation peuvent être utilisées ?",
-      "type": "article",
-      "summary": "Les véhicules connectés collectent des données de localisation pour proposer certains services liés au divertissement ou à la sécurité. Ces informations peuvent révéler des éléments très personnels su",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Tue, 30 Jun 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/vehicules-connectes-utilisation-de-vos-donnees"
     },
     {
       "title": "[vidéo] Research@LINC : Réactions des personnes concernées à l’exercice de leur droit d’accès, Arthur Borem",
@@ -200,9 +183,9 @@
       "url": "https://linc.cnil.fr/sinspirer-du-vivant-pour-stocker-les-donnees-ladn-comme-nouveau-support"
     },
     {
-      "title": "Sapeurs-pompiers volontaires et statut de « travailleur » : le Conseil d'État tranche, sans révolutionner le modèle français. Par Jonathan Bomstain, Avocat.",
+      "title": "Alinéa, nouveau microscope sémantique des lois au service de l'interprétation juridique.",
       "type": "article",
-      "summary": "Il aura fallu plus de huit ans depuis l'arrêt Matzak de la Cour de justice de l'Union européenne et six ans de procédure interne pour que le Conseil d'État se prononce, en Section du contentieux, sur ",
+      "summary": "Rechercher l'intention du législateur derrière un texte de loi est une étape souvent cruciale pour les professionnels du droit, mais qui s'apparente régulièrement à un parcours du combattant. Face à l",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -212,9 +195,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "2026-07-13 09:30",
+      "date": "2026-07-20 09:30",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/sapeurs-pompiers-volontaires-statut-travailleur-conseil-etat-tranche-sans,58225.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/alinea-nouveau-microscope-semantique-des-lois-service-interpretation-juridique,58282.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -369,6 +352,40 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Véhicules connectés : dans quelles conditions vos données de localisation peuvent être utilisées ?",
+      "type": "article",
+      "summary": "Les véhicules connectés collectent des données de localisation pour proposer certains services liés au divertissement ou à la sécurité. Ces informations peuvent révéler des éléments très personnels su",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Tue, 30 Jun 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/vehicules-connectes-utilisation-de-vos-donnees"
+    },
+    {
+      "title": "Sapeurs-pompiers volontaires et statut de « travailleur » : le Conseil d'État tranche, sans révolutionner le modèle français. Par Jonathan Bomstain, Avocat.",
+      "type": "article",
+      "summary": "Il aura fallu plus de huit ans depuis l'arrêt Matzak de la Cour de justice de l'Union européenne et six ans de procédure interne pour que le Conseil d'État se prononce, en Section du contentieux, sur ",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-07-13 09:30",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/sapeurs-pompiers-volontaires-statut-travailleur-conseil-etat-tranche-sans,58225.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Véhicules connectés : la CNIL publie sa recommandation sur l’utilisation des données de localisation",
@@ -1063,8 +1080,8 @@
     }
   ],
   "stats": {
-    "total": 62,
-    "rgpd": 47,
+    "total": 63,
+    "rgpd": 48,
     "ai": 0,
     "sante": 0,
     "juris": 7,
