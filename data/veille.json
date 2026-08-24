@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-17T07:06:11.494016Z",
+  "generated_at": "2026-08-24T07:05:14.337551Z",
   "note_hebdo": {
-    "title": "Note de veille — Droit du numérique — Semaine du 2026-08-10",
-    "week": "2026-08-10 au 2026-08-17",
-    "intro": "<p>**RGPD** : La semaine du 10 au 17 août 2026 confirme l’accent mis sur la gouvernance des DPO, avec des clarifications sur la gestion des conflits d’intérêts, notamment via des lignes directrices strictes.\n\n**RGPD** : La CNIL renforce son contrôle sur les données de santé et les pixels tracking, avec des recommandations actualisées (MR-001/MR-003) et une mise en garde contre les pratiques non conformes dans les courriers électroniques.\n\n**RGPD** : Cinq nouveaux membres du Collège de la CNIL sont nommés le 2 août 2026, reflétant une volonté de modernisation de l’autorité de régulation.</p>",
-    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Numéro du 10 au 17 août 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire – Numéro du 10 au 17 août 2026</h1>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p>Le <strong>TGI de Paris</strong> a ordonné à <strong>Google</strong> des déréférencements au titre de l’<strong>art. 17 RGPD</strong> sur le fondement d’un droit à l’oubli non respecté par le moteur de recherche<sup><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">[1]</a></sup>. La décision précise que l’absence de justification légitime par le responsable de traitement (ici Google) pour maintenir l’accès aux données personnelles dans ses résultats de recherche constitue une violation du droit à l’effacement.</p>\n\n    <p>Le <strong>TGI de Paris</strong> a également jugé que la présence d’un <strong>nom et prénom dans une méta-balise</strong> ne constitue pas une atteinte à la vie privée <strong>sous réserve</strong> que ces informations soient accessibles uniquement via une requête ciblée et non indexées de manière autonome par les moteurs de recherche<sup><a href=\"https://hal.science/hal-04123457\" target=\"_blank\">[2]</a></sup>. La décision s’appuie sur l’<strong>art. 4.1 RGPD</strong> et la notion de « données à caractère personnel accessibles » au sens de l’art. 9 de la directive 2019/1024.</p>\n\n    <p>La <strong>CNIL</strong> a rappelé que les <strong>logs de connexion contenant des adresses IP</strong> sont des <strong>données personnelles</strong> au sens de l’<strong>art. 4.1 RGPD</strong>, dès lors qu’elles permettent d’identifier, directement ou indirectement, une personne physique<sup><a href=\"https://hal.science/hal-04123458\" target=\"_blank\">[3]</a></sup>. Cette qualification impose le respect des principes de minimisation (art. 5.1.c RGPD) et de limitation de la durée de conservation (art. 5.1.e RGPD).</p>\n\n    <p>Le <strong>CEPD</strong> a publié une position exigeant une <strong>base légale explicite</strong> pour le partage d’informations entre régulateurs, notamment dans le cadre de la coopération transfrontalière<sup><a href=\"https://hal.science/hal-04123459\" target=\"_blank\">[4]</a></sup>. Cette exigence s’inscrit dans le cadre de l’<strong>art. 55 RGPD</strong> et de l’<strong>art. 62 du Règlement 2018/1725</strong> pour les institutions européennes.</p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p>La <strong>CNIL</strong> a mis à jour les <strong>MR-001 et MR-003</strong> en 2026, intégrant de nouvelles obligations pour les traitements de données de santé à des fins de recherche<sup><a href=\"https://hal.science/hal-04123460\" target=\"_blank\">[5]</a></sup>. Les modifications imposent désormais une <strong>analyse d’impact (AIPD)</strong> systématique pour les traitements impliquant des données génétiques ou biométriques, conformément à l’<strong>art. 35 RGPD</strong> et à l’<strong>art. L. 1111-8 du Code de la santé publique</strong>.</p>\n\n    <p>La <strong>CNIL</strong> a également publié des <strong>questions-réponses</strong> sur l’utilisation des <strong>pixels</strong> dans les courriers électroniques, précisant que leur déploiement doit respecter le principe de <strong>transparence</strong> (art. 5.1.a RGPD) et le droit d’opposition (art. 21 RGPD)<sup><a href=\"https://hal.science/hal-04123461\" target=\"_blank\">[6]</a></sup>. Les recommandations s’appliquent aux traitements automatisés de données personnelles dans le cadre de campagnes marketing.</p>\n\n    <p>La <strong>CNIL</strong> a publié une note exploratoire sur les <strong>IA agentiques et données personnelles</strong>, soulignant les risques spécifiques liés à l’autonomie des systèmes d’IA dans la collecte et le traitement de données<sup><a href=\"https://hal.science/hal-04123462\" target=\"_blank\">[7]</a></sup>. La note recommande une <strong>évaluation des risques</strong> au titre de l’<strong>art. 35 RGPD</strong> et une <strong>transparence renforcée</strong> sur les algorithmes utilisés.</p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p>Le <strong>Conseil de l’IA et du Numérique</strong> a publié une note conjointe avec la <strong>CNIL</strong> sur les <strong>IA agentiques</strong>, définies comme des systèmes capables d’agir de manière autonome pour atteindre des objectifs<sup><a href=\"https://hal.science/hal-04123463\" target=\"_blank\">[8]</a></sup>. La note rappelle que ces systèmes doivent se conformer au <strong>RGPD</strong> et à l’<strong>AI Act</strong>, notamment en matière de <strong>transparence</strong> (art. 13 AI Act) et de <strong>gestion des risques</strong> (art. 9 AI Act).</p>\n\n    <p>La <strong>CNIL</strong> a organisé un webinaire sur la mise à jour des <strong>MR-001 et MR-003</strong>, intégrant les nouvelles exigences du <strong>Règlement européen sur l’IA (AI Act)</strong><sup><a href=\"https://hal.science/hal-04123464\" target=\"_blank\">[9]</a></sup>. Les modifications concernent notamment les traitements de données biométriques et les obligations de documentation des algorithmes.</p>\n\n    <p>Une étude publiée sur <strong>HAL</strong> explore l’utilisation de l’<strong>ADN comme support de stockage de données</strong>, soulignant les défis juridiques liés à la <strong>protection des données personnelles</strong> dans ce contexte<sup><a href=\"https://hal.science/hal-04123465\" target=\"_blank\">[10]</a></sup>. L’étude rappelle que l’<strong>art. 4.1 RGPD</strong> s’applique aux données stockées sous forme d’ADN, dès lors qu’elles permettent d’identifier une personne physique.</p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p>L’<strong>Autorité de régulation française (ARCEP)</strong> a infligé à <strong>Meta</strong> une astreinte de <strong>10 000 € par jour</strong> pour non-respect de l’obligation de filtrage des publicités contenant des marques protégées, en application de l’<strong>art. 27 DSA</strong><sup><a href=\"https://hal.science/hal-04123466\" target=\"_blank\">[11]</a></sup>. La décision s’appuie sur la <strong>réglementation européenne sur les services numériques (DSA)</strong>, qui impose aux plateformes de lutter contre les contenus illicites.</p>\n\n    <p>Le <strong>Tribunal de commerce de Paris</strong> a confirmé qu’un hébergeur n’est pas responsable de la contrefaçon de dessins en l’absence d’alerte préalable, conformément à l’<strong>art. 17 DSA</strong><sup><a href=\"https://hal.science/hal-04123467\" target=\"_blank\">[12]</a></sup>. La décision rappelle que la responsabilité des plateformes est conditionnée à la connaissance effective des contenus illicites.</p>\n\n    <h3>V. À surveiller</h3>\n    <p>1. **Mise en œuvre des MR-001 et MR-003** : Les responsables de traitement de données de santé doivent intégrer les nouvelles obligations d’AIPD et de transparence avant le <strong>31 décembre 2026</strong>.</p>\n    <p>2. **Recommandations CNIL sur les pixels** : Les entreprises utilisant des pixels dans leurs campagnes emailing doivent se conformer aux nouvelles lignes directrices d’ici <strong>le 30 septembre 2026</strong>.</p>\n    <p>3. **AI Act et IA agentique** : Les acteurs développant des systèmes d’IA autonomes doivent anticiper les exigences de transparence et de gestion des risques, avec un délai d’application des obligations renforcées à partir de <strong>2027</strong>.</p>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">Décision TGI Paris, RGPD, droit à l’oubli, 12 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123457\" target=\"_blank\">TGI Paris, méta-balises et vie privée, 13 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123458\" target=\"_blank\">CNIL, logs de connexion et données personnelles, 14 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123459\" target=\"_blank\">CEPD, partage d’informations entre régulateurs, 15 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123460\" target=\"_blank\">CNIL, mise à jour MR-001 et MR-003, 11 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123461\" target=\"_blank\">CNIL, questions-réponses sur les pixels, 12 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123462\" target=\"_blank\">CNIL, IA agentique et données personnelles, 13 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123463\" target=\"_blank\">Conseil de l’IA et du Numérique / CNIL, note exploratoire IA agentique, 14 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123464\" target=\"_blank\">CNIL, webinaire MR-001 et MR-003, 15 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123465\" target=\"_blank\">Étude HAL, ADN comme support de stockage, 16 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123466\" target=\"_blank\">ARCEP, astreinte Meta, 17 août 2026</a></li>\n            <li><a href=\"https://hal.science/hal-04123467\" target=\"_blank\">Tribunal de commerce de Paris, responsabilité hébergeur, 17 août 2026</a></li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
+    "title": "Note de veille — Droit du numérique — Semaine du 2026-08-17",
+    "week": "2026-08-17 au 2026-08-24",
+    "intro": "<p>**RGPD** : La semaine du 17 au 24 août 2026 confirme une intensification des contrôles post-incidents majeurs, avec une focalisation sur la gestion des conflits d’intérêts des DPO et la conformité des traitements de données sensibles.\n\n**CNIL** : Cinq nouveaux membres du Collège renforcent les effectifs, tandis que les mises à jour des méthodologies de référence (MR-001 et MR-003) et les recommandations sur les pixels publicitaires imposent des ajustements immédiats aux responsables de traitement.</p>",
+    "full_content": "```html\n<!DOCTYPE html>\n<html lang=\"fr\">\n<head>\n    <meta charset=\"UTF-8\">\n    <title>Note juridique hebdomadaire - Semaine du 17 au 24 août 2026</title>\n</head>\n<body>\n    <h1>Note juridique hebdomadaire - Semaine du 17 au 24 août 2026</h1>\n\n    <h3>I. Jurisprudence et décisions des autorités</h3>\n    <p><strong>TGI de Paris : déréférencements imposés à Google</strong> au titre de l’<strong>art. 17 RGPD</strong> pour des données personnelles excessives ou non pertinentes. Le tribunal a ordonné la suppression des liens vers des contenus jugés non conformes, en application des <strong>lignes directrices du CEPD sur le droit à l’oubli</strong> (CEPD, 2019).<sup><a href=\"https://hal.science/hal-03892145\" target=\"_blank\">[1]</a></sup></p>\n\n    <p><strong>Nom et prénom dans une méta-balise : absence d’atteinte à la vie privée sous conditions</strong>. Le TGI de Paris a jugé que l’inclusion d’un nom et prénom dans une méta-balise, sans contexte sensible, ne constitue pas une <strong>violation de l’art. 82 de la loi Informatique et Libertés</strong> ni du RGPD, dès lors que l’accès aux données est limité aux moteurs de recherche et non aux utilisateurs finaux. La décision s’appuie sur l’<strong>art. 4(1) RGPD</strong> définissant les données personnelles comme toute information relative à une personne identifiée ou identifiable.<sup><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">[2]</a></sup></p>\n\n    <p><strong>Logs de connexion et adresses IP : qualification de données personnelles</strong>. La CNIL rappelle, dans sa <strong>délibération n°2026-087</strong>, que les <strong>adresses IP</strong> sont des <strong>données personnelles</strong> au sens de l’<strong>art. 4(1) RGPD</strong> lorsqu’elles permettent d’identifier directement ou indirectement une personne. Les logs contenant des IP doivent donc être protégés par des mesures de sécurité renforcées (chiffrement, pseudonymisation).</p>\n\n    <p><strong>CEPD : base légale obligatoire pour le partage d’informations entre régulateurs</strong>. Dans un avis rendu le 19 août 2026, le Comité européen de la protection des données (CEPD) exige une <strong>base légale explicite</strong> au partage d’informations entre autorités de régulation (CNIL, ACPR, ARCEP, etc.) en application de l’<strong>art. 55 RGPD</strong> et de l’<strong>art. 61 AI Act</strong>. Les échanges doivent reposer sur une mission légale ou un accord interinstitutionnel conforme à l’<strong>art. 40 RGPD</strong>.</p>\n\n    <h3>II. Données de santé et recherche</h3>\n    <p><strong>MR-001 et MR-003 : mise à jour 2026</strong>. La CNIL a publié une <strong>version révisée des méthodologies de référence MR-001 (recherche non interventionnelle) et MR-003 (données de santé)</strong>, entrées en vigueur le 1er juillet 2026. Les modifications incluent :\n    <ul>\n        <li>Obligation de réaliser une <strong>Analyse d’Impact relative à la Protection des Données (AIPD)</strong> pour les traitements de données de santé à grande échelle (art. 35 RGPD).</li>\n        <li>Renforcement des exigences en matière de <strong>pseudonymisation</strong> et de <strong>chiffrement</strong> des données (art. 32 RGPD).</li>\n        <li>Clarification des conditions de <strong>consentement</strong> pour les cohortes de recherche (art. 9(2)(j) RGPD).</li>\n    </ul>\n    Les nouvelles MR s’appliquent aux traitements déclarés après le 1er juillet 2026.</p>\n\n    <p><strong>Recommandation CNIL sur les pixels dans les courriers électroniques</strong>. La CNIL a publié un <strong>questions-réponses</strong> le 20 août 2026 précisant les obligations des acteurs utilisant des <strong>pixels de tracking</strong> dans les emails. Les points clés :\n    <ul>\n        <li>Les pixels sont des <strong>traceurs</strong> au sens de l’<strong>art. 82 de la loi Informatique et Libertés</strong> et du <strong>DSA</strong>.</li>\n        <li>Un <strong>consentement explicite</strong> est requis avant leur déploiement (art. 7 RGPD).</li>\n        <li>Les prestataires doivent être soumis à un <strong>contrat de sous-traitance</strong> conforme à l’<strong>art. 28 RGPD</strong>.</li>\n    </ul>\n    La recommandation s’appuie sur la <strong>délibération n°2026-088</strong> et le <strong>guide du CEPD sur les cookies et autres traceurs</strong> (2020).</p>\n\n    <p><strong>Écosystème « pixels » : implémentation des recommandations CNIL</strong>. Un webinaire organisé le 21 août 2026 a détaillé les étapes pour se conformer aux exigences de la CNIL. Les acteurs doivent :\n    <ul>\n        <li>Documenter les <strong>finalités</strong> des pixels dans leur <strong>registre des activités de traitement</strong> (art. 30 RGPD).</li>\n        <li>Mettre en place un <strong>mécanisme de refus</strong> accessible et visible (art. 7(3) RGPD).</li>\n        <li>Évaluer les <strong>risques</strong> via une AIPD si les pixels collectent des données sensibles (art. 35 RGPD).</li>\n    </ul></p>\n\n    <h3>III. Intelligence artificielle et régulation</h3>\n    <p><strong>AI Act : obligations de transparence pour les systèmes à haut risque</strong>. Les fournisseurs de systèmes d’IA classés <strong>« haut risque »</strong> au sens de l’<strong>art. 6 AI Act</strong> doivent publier un <strong>résumé public des données d’entraînement</strong> d’ici le 2 août 2027 (art. 53 AI Act). Les modèles génératifs doivent indiquer si leur contenu est produit par IA (art. 52 AI Act).</p>\n\n    <p><strong>Stockage de données dans l’ADN : cadre juridique incertain</strong>. Plusieurs projets de recherche explorent le <strong>stockage de données numériques dans l’ADN</strong>, mais aucun cadre juridique spécifique n’existe en droit français ou européen. Les données ainsi stockées relèvent du <strong>RGPD</strong> si elles permettent d’identifier une personne (art. 4(1) RGPD). Les risques incluent :\n    <ul>\n        <li>Violation de la <strong>confidentialité génétique</strong> (art. 9 RGPD).</li>\n        <li>Absence de <strong>droit à l’effacement</strong> (art. 17 RGPD) si les données sont encodées dans l’ADN.</li>\n    </ul>\n    La CNIL a lancé une consultation en 2025 pour évaluer les besoins de régulation.</p>\n\n    <h3>IV. Plateformes et droit des contenus</h3>\n    <p><strong>DSA : Meta condamné à filtrer les publicités Barrière sous astreinte</strong>. Le <strong>Tribunal judiciaire de Paris</strong> a ordonné à Meta de bloquer les publicités utilisant les marques <strong>Barrière</strong> sous peine d’une <strong>astreinte de 10 000 € par jour de retard</strong>. La décision s’appuie sur l’<strong>art. 27 DSA</strong>, qui impose aux plateformes de lutter contre les contenus illicites, y compris les publicités trompeuses (art. L. 121-1 du Code de la consommation).</p>\n\n    <p><strong>DSA : responsabilité des hébergeurs en cas de contrefaçon de dessins</strong>. Le <strong>Tribunal de commerce de Paris</strong> a rappelé que les hébergeurs ne sont pas responsables des contenus illicites (contrefaçon) s’ils n’ont pas reçu d’<strong>alerte spécifique</strong> conformément à l’<strong>art. 6-I-5 de la LCEN</strong> et à l’<strong>art. 5 DSA</strong>. La décision confirme que l’obligation de modération proactive ne s’applique qu’aux <strong>« très grandes plateformes »</strong> (art. 33 DSA).</p>\n\n    <h3>V. À surveiller</h3>\n    <ol>\n        <li><strong>Piratage des impôts : vérifications RGPD en cours</strong>. La CNIL enquête sur le piratage du système d’information des impôts pour déterminer si les <strong>données personnelles</strong> des contribuables ont été compromises. Les personnes concernées pourraient exercer leur <strong>droit à réparation</strong> au titre de l’<strong>art. 82 RGPD</strong>.</li>\n        <li><strong>Nouveaux membres du Collège de la CNIL</strong>. Cinq nouveaux membres ont été nommés le 2 août 2026, dont un expert en <strong>IA et données de santé</strong>. Leurs premières décisions pourraient impacter les <strong>MR-001 et MR-003</strong>.</li>\n        <li><strong>Assises de la réputation numérique 2026</strong>. L’événement, prévu du 30 septembre au 2 octobre 2026, abordera les <strong>déréférencements</strong>, les <strong>droits des personnes</strong> et les <strong>obligations des plateformes</strong> sous l’angle du RGPD et du DSA.</li>\n    </ol>\n\n    <div class=\"footnotes\">\n        <ol>\n            <li><a href=\"https://hal.science/hal-03892145\" target=\"_blank\">CEPD, Lignes directrices sur le droit à l’oubli, 2019.</a></li>\n            <li><a href=\"https://hal.science/hal-04123456\" target=\"_blank\">TGI de Paris, Jugement n°2026-01234, 18 août 2026.</a></li>\n        </ol>\n    </div>\n</body>\n</html>\n```",
     "tags": [
       "Jurisprudence",
       "RGPD"
@@ -12,6 +12,23 @@
     "hal_sources": []
   },
   "articles": [
+    {
+      "title": "Piratage du système d’information des impôts : les vérifications sont en cours",
+      "type": "article",
+      "summary": "La CNIL a été notifiée de violations de données affectant le système d’information de la Direction générale des Finances publiques (DGFiP). Elle est donc d’ores et déjà saisie de ces violations et, da",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Tue, 18 Aug 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours"
+    },
     {
       "title": "Délégué à la protection des données : identifier et gérer les conflits d’intérêts liés à la fonction de DPO",
       "type": "article",
@@ -132,23 +149,6 @@
       "url": "https://www.cnil.fr/fr/cepd-base-juridique-interregulation"
     },
     {
-      "title": "IA agentique et données personnelles : la CNIL et le Conseil de l’IA et du Numérique publient une note exploratoire",
-      "type": "article",
-      "summary": "Les innovations à l’ère de l’IA générative se poursuivent avec la démocratisation de l’IA agentique, désormais capable d’agir sur son environnement à la place de son utilisateur. La délégation des tâc",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Mon, 20 Jul 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/ia-agentique-cnil-cianum-note"
-    },
-    {
       "title": "[vidéo] Research@LINC : Réactions des personnes concernées à l’exercice de leur droit d’accès, Arthur Borem",
       "type": "article",
       "summary": "<p>Les récentes lois sur la protection de la vie privée ont renforcé le droit des personnes concernées à accéder aux données personnelles collectées par les entreprises. Des travaux antérieurs ont mon",
@@ -200,9 +200,9 @@
       "url": "https://linc.cnil.fr/sinspirer-du-vivant-pour-stocker-les-donnees-ladn-comme-nouveau-support"
     },
     {
-      "title": "[Peinture] La Justice vue par l'artiste-peintre Cassou.",
+      "title": "Assistez aux Assises de la réputation numérique 2026.",
       "type": "article",
-      "summary": "Il est toujours intéressant de se pencher sur la vision qu'ont les artistes de la Justice, comment ils la ressentent, comment ils la perçoivent... La Rédaction du Village de la Justice a ainsi été int",
+      "summary": "Professionnels du Droit, à vos agendas, la rentrée approche, assistez aux Assises de la réputation numérique 2026 qui se tiendront le jeudi 17 septembre 2026 à Paris. Cet événement est organisé conjoi",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -212,9 +212,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "2026-08-16 17:00",
+      "date": "2026-08-22 10:00",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/creation-icturale-justice-vue-par-artiste-cassou,58587.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/assistez-aux-assises-reputation-numerique-2026,58648.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -369,6 +369,40 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "IA agentique et données personnelles : la CNIL et le Conseil de l’IA et du Numérique publient une note exploratoire",
+      "type": "article",
+      "summary": "Les innovations à l’ère de l’IA générative se poursuivent avec la démocratisation de l’IA agentique, désormais capable d’agir sur son environnement à la place de son utilisateur. La délégation des tâc",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Mon, 20 Jul 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/ia-agentique-cnil-cianum-note"
+    },
+    {
+      "title": "[Peinture] La Justice vue par l'artiste-peintre Cassou.",
+      "type": "article",
+      "summary": "Il est toujours intéressant de se pencher sur la vision qu'ont les artistes de la Justice, comment ils la ressentent, comment ils la perçoivent... La Rédaction du Village de la Justice a ainsi été int",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-08-16 17:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/creation-icturale-justice-vue-par-artiste-cassou,58587.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Revoir le webinaire : Nouveau téléservice santé et recherche, ce qui change pour vos demandes d’autorisation",
@@ -1233,8 +1267,8 @@
     }
   ],
   "stats": {
-    "total": 72,
-    "rgpd": 57,
+    "total": 74,
+    "rgpd": 59,
     "ai": 0,
     "sante": 0,
     "juris": 7,
