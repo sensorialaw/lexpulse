@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-07T12:00:13.580656Z",
+  "generated_at": "2026-09-14T12:15:26.651823Z",
   "note_hebdo": {
     "title": "Note hebdomadaire",
-    "week": "2026-08-31 au 2026-09-07",
+    "week": "2026-09-07 au 2026-09-14",
     "intro": "<p>Note en cours de génération.</p>",
     "full_content": "<p>Contenu indisponible.</p>",
     "tags": [
@@ -11,6 +11,23 @@
     "hal_sources": []
   },
   "articles": [
+    {
+      "title": "Non-respect des droits des personnes : sanction de 300 000 euros à l’encontre de la société EXTIA",
+      "type": "article",
+      "summary": "Le 21 juillet 2026, la CNIL a sanctionné la société EXTIA d’une amende de 300&amp;nbsp;000 euros pour divers manquements relatifs au respect des droits des personnes, notamment du droit à l’effacement",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Wed, 09 Sep 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/sanction-non-respect-droits-personnes-extia"
+    },
     {
       "title": "Violation de données en matière de santé : sanction de 500 000 euros à l’encontre de l’HÔPITAL PRIVÉ DE LA LOIRE",
       "type": "article",
@@ -29,9 +46,9 @@
       "url": "https://www.cnil.fr/fr/sanction-hopital-prive-loire"
     },
     {
-      "title": "Décisions automatisées : sanction de près de 825 millions d’euros à l’encontre d’UBER",
+      "title": "Facturation électronique : quels enjeux pour la protection des données personnelles ?",
       "type": "article",
-      "summary": "En coopération avec la CNIL, l’autorité néerlandaise de protection des données a prononcé à l’encontre des sociétés UBER B.V. et UBER TECHNOLOGIES INC. une amende de 824&amp;nbsp;990&amp;nbsp;000 euro",
+      "summary": "Depuis le 1er septembre 2026, la réforme relative à la facturation électronique entre entreprises est entrée en vigueur. La CNIL aide les entreprises à comprendre les enjeux et à assurer la sécurité d",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -41,9 +58,26 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Mon, 24 Aug 2026",
+      "date": "Thu, 10 Sep 2026",
       "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber"
+      "url": "https://www.cnil.fr/fr/facturation-electronique-quels-enjeux"
+    },
+    {
+      "title": "La CNIL publie le tome 2 de L’Agence Privacy : une nouvelle enquête pour mieux comprendre la cybercriminalité",
+      "type": "article",
+      "summary": "Avec «&amp;nbsp;Au-delà de l’écran&amp;nbsp;», l’Agence Privacy revient avec de nouvelles aventures&amp;nbsp;! Hypertrucage (deepfakes), arnaque aux sentiments, défis nocifs sur les réseaux sociaux, b",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Thu, 10 Sep 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/audeladelecran"
     },
     {
       "title": "Participez aux Rencontres Informatique & Libertés le 29 septembre 2026",
@@ -114,9 +148,9 @@
       "url": "https://www.cnil.fr/fr/enseignement-superieur-bonnes-pratiques-outils-collaboratifs"
     },
     {
-      "title": "Enseignement du premier et du second degrés : les règles et bonnes pratiques pour utiliser les outils collaboratifs en ligne",
+      "title": "IA Agentique : de quoi parle-t-on ?",
       "type": "article",
-      "summary": "Les établissements du premier et du second degrés souhaitant recourir à des outils collaboratifs en ligne doivent se montrer vigilants concernant la protection des données personnelles. La CNIL rappel",
+      "summary": "<p><em>L’émergence de l’IA agentique pose d’abord la question de ce qu’on entend par cette terminologie qui, bien qu’ancienne, prend un sens nouveau à l’ère de l’IA générative. Il n’existe pas de défi",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -126,26 +160,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Mon, 24 Aug 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/enseignement-premier-second-degres-bonnes-pratiques-outils-collaboratifs"
-    },
-    {
-      "title": "Piratage du système d’information des impôts : les vérifications sont en cours",
-      "type": "article",
-      "summary": "La CNIL a été notifiée de violations de données affectant le système d’information de la Direction générale des Finances publiques (DGFiP). Elle est donc d’ores et déjà saisie de ces violations et, da",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Tue, 18 Aug 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours"
+      "date": "Mercredi 2 septe",
+      "source": "LINC (CNIL)",
+      "url": "https://linc.cnil.fr/ia-agentique-de-quoi-parle-t"
     },
     {
       "title": "Agentic AI: what are we talking about?",
@@ -160,14 +177,14 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Vendredi 28 août",
+      "date": "Mercredi 2 septe",
       "source": "LINC (CNIL)",
       "url": "https://linc.cnil.fr/en/agentic-ai-what-are-we-talking-about"
     },
     {
-      "title": "IA Agentique : de quoi parle-t-on ?",
+      "title": "Distance de réciprocité et police des installations classées : qui peut réduire les 100 mètres ? Par Antonin Cholet, Avocat.",
       "type": "article",
-      "summary": "<p><em>L’émergence de l’IA agentique pose d’abord la question de ce qu’on entend par cette terminologie qui, bien qu’ancienne, prend un sens nouveau à l’ère de l’IA générative. Il n’existe pas de défi",
+      "summary": "Par une décision du 6 février 2026, n°498934 rendue en chambres réunies, le Conseil d'État précise l'articulation entre la police des installations classées et celle des autorisations d'urbanisme dans",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -177,26 +194,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Lundi 3 août 202",
-      "source": "LINC (CNIL)",
-      "url": "https://linc.cnil.fr/ia-agentique-de-quoi-parle-t"
-    },
-    {
-      "title": "Closing juridique : trois usages concrets de l'IA à découvrir en webinaire.",
-      "type": "article",
-      "summary": "À l'approche d'un closing, les équipes juridiques entrent souvent dans le « dernier kilomètre » de l'opération. L'essentiel du travail est engagé, mais chaque détail compte encore : retrouver une clau",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "2026-09-07 13:00",
+      "date": "2026-09-14 14:00",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/closing-juridique-trois-usages-concrets-decouvrir-webinaire,58852.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/distance-reciprocite-police-des-installations-classees-qui-peut-reduire-les-100,58987.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -351,6 +351,74 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Décisions automatisées : sanction de près de 825 millions d’euros à l’encontre d’UBER",
+      "type": "article",
+      "summary": "En coopération avec la CNIL, l’autorité néerlandaise de protection des données a prononcé à l’encontre des sociétés UBER B.V. et UBER TECHNOLOGIES INC. une amende de 824&amp;nbsp;990&amp;nbsp;000 euro",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Mon, 24 Aug 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/decisions-automatisees-sanction-de-pres-de-825-millions-deuros-lencontre-duber"
+    },
+    {
+      "title": "Enseignement du premier et du second degrés : les règles et bonnes pratiques pour utiliser les outils collaboratifs en ligne",
+      "type": "article",
+      "summary": "Les établissements du premier et du second degrés souhaitant recourir à des outils collaboratifs en ligne doivent se montrer vigilants concernant la protection des données personnelles. La CNIL rappel",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Mon, 24 Aug 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/enseignement-premier-second-degres-bonnes-pratiques-outils-collaboratifs"
+    },
+    {
+      "title": "Piratage du système d’information des impôts : les vérifications sont en cours",
+      "type": "article",
+      "summary": "La CNIL a été notifiée de violations de données affectant le système d’information de la Direction générale des Finances publiques (DGFiP). Elle est donc d’ores et déjà saisie de ces violations et, da",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Tue, 18 Aug 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/piratage-du-systeme-dinformation-des-impots-les-verifications-sont-en-cours"
+    },
+    {
+      "title": "Closing juridique : trois usages concrets de l'IA à découvrir en webinaire.",
+      "type": "article",
+      "summary": "À l'approche d'un closing, les équipes juridiques entrent souvent dans le « dernier kilomètre » de l'opération. L'essentiel du travail est engagé, mais chaque détail compte encore : retrouver une clau",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-09-07 13:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/closing-juridique-trois-usages-concrets-decouvrir-webinaire,58852.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Délégué à la protection des données : identifier et gérer les conflits d’intérêts liés à la fonction de DPO",
@@ -1470,8 +1538,8 @@
     }
   ],
   "stats": {
-    "total": 86,
-    "rgpd": 71,
+    "total": 90,
+    "rgpd": 75,
     "ai": 0,
     "sante": 0,
     "juris": 7,
