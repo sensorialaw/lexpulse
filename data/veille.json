@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-09-14T12:15:26.651823Z",
+  "generated_at": "2026-09-21T12:23:18.283066Z",
   "note_hebdo": {
     "title": "Note hebdomadaire",
-    "week": "2026-09-07 au 2026-09-14",
+    "week": "2026-09-14 au 2026-09-21",
     "intro": "<p>Note en cours de génération.</p>",
     "full_content": "<p>Contenu indisponible.</p>",
     "tags": [
@@ -131,23 +131,6 @@
       "url": "https://www.cnil.fr/fr/ia-la-cnil-met-jour-son-outil-de-tracabilite-des-modeles-publies-en-source-ouverte"
     },
     {
-      "title": "Enseignement supérieur : les règles et bonnes pratiques pour utiliser des outils collaboratifs en ligne",
-      "type": "article",
-      "summary": "Les établissements d’enseignement supérieur souhaitant recourir à des outils collaboratifs en ligne doivent se montrer vigilants concernant la protection des données personnelles. La CNIL rappelle les",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Mon, 24 Aug 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/enseignement-superieur-bonnes-pratiques-outils-collaboratifs"
-    },
-    {
       "title": "IA Agentique : de quoi parle-t-on ?",
       "type": "article",
       "summary": "<p><em>L’émergence de l’IA agentique pose d’abord la question de ce qu’on entend par cette terminologie qui, bien qu’ancienne, prend un sens nouveau à l’ère de l’IA générative. Il n’existe pas de défi",
@@ -182,9 +165,9 @@
       "url": "https://linc.cnil.fr/en/agentic-ai-what-are-we-talking-about"
     },
     {
-      "title": "Distance de réciprocité et police des installations classées : qui peut réduire les 100 mètres ? Par Antonin Cholet, Avocat.",
+      "title": "L'action directe en paiement s'applique-t-elle aux transports internationaux ? La nuance de la loi applicable. Par Romain Balsa, Avocat.",
       "type": "article",
-      "summary": "Par une décision du 6 février 2026, n°498934 rendue en chambres réunies, le Conseil d'État précise l'articulation entre la police des installations classées et celle des autorisations d'urbanisme dans",
+      "summary": "Nous avons consacré un article au mécanisme de l'article L132-8 du Code de commerce : le transporteur impayé par son donneur d'ordre, souvent un commissionnaire défaillant, peut réclamer son fret dire",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -194,9 +177,9 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "2026-09-14 14:00",
+      "date": "2026-09-21 14:00",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/distance-reciprocite-police-des-installations-classees-qui-peut-reduire-les-100,58987.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/action-directe-paiement-applique-elle-aux-transports-internationaux-nuance-loi,59121.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -351,6 +334,40 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Enseignement supérieur : les règles et bonnes pratiques pour utiliser des outils collaboratifs en ligne",
+      "type": "article",
+      "summary": "Les établissements d’enseignement supérieur souhaitant recourir à des outils collaboratifs en ligne doivent se montrer vigilants concernant la protection des données personnelles. La CNIL rappelle les",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Mon, 24 Aug 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/enseignement-superieur-bonnes-pratiques-outils-collaboratifs"
+    },
+    {
+      "title": "Distance de réciprocité et police des installations classées : qui peut réduire les 100 mètres ? Par Antonin Cholet, Avocat.",
+      "type": "article",
+      "summary": "Par une décision du 6 février 2026, n°498934 rendue en chambres réunies, le Conseil d'État précise l'articulation entre la police des installations classées et celle des autorisations d'urbanisme dans",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-09-14 14:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/distance-reciprocite-police-des-installations-classees-qui-peut-reduire-les-100,58987.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Décisions automatisées : sanction de près de 825 millions d’euros à l’encontre d’UBER",
@@ -1538,8 +1555,8 @@
     }
   ],
   "stats": {
-    "total": 90,
-    "rgpd": 75,
+    "total": 91,
+    "rgpd": 76,
     "ai": 0,
     "sante": 0,
     "juris": 7,
