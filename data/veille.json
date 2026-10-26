@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-19T12:37:11.626817Z",
+  "generated_at": "2026-10-26T12:32:25.288811Z",
   "note_hebdo": {
     "title": "Note hebdomadaire",
-    "week": "2026-10-12 au 2026-10-19",
+    "week": "2026-10-19 au 2026-10-26",
     "intro": "<p>Note en cours de génération.</p>",
     "full_content": "<p>Contenu indisponible.</p>",
     "tags": [
@@ -11,6 +11,23 @@
     "hal_sources": []
   },
   "articles": [
+    {
+      "title": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
+      "type": "article",
+      "summary": "La CNIL organise une nouvelle Journée RGPD à Poitiers le 1er décembre 2026. Cet évènement sera l’occasion d’échanger avec les acteurs du territoire sur les actualités en matière de protection des donn",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Tue, 20 Oct 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/journee-rgpd-2026-poitiers"
+    },
     {
       "title": "Revoir le webinaire - Nouveau régime de la prospection téléphonique : comment et quand recueillir le consentement de la personne concernée ?",
       "type": "article",
@@ -131,9 +148,9 @@
       "url": "https://www.cnil.fr/fr/ril-2026"
     },
     {
-      "title": "Clôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL",
+      "title": "Retour gagnant pour la Convention Nationale des Avocats à Toulouse, ce que vous avez peut-être raté dans les stands de l'évènement…",
       "type": "article",
-      "summary": "Par délibération du 23 septembre 2026, la CNIL a clos l’injonction prononcée le 22&amp;nbsp;janvier 2026 à l’encontre de FRANCE TRAVAIL, sans liquider l’astreinte prévue compte tenu de sa mise en conf",
+      "summary": "La Convention nationale des avocats 2026 s'est tenue du 21 au 23 octobre 2026 à Toulouse (et à Albi pour le volet international), et c'est, 9 ans après la précédente édition, un heureux moment de conf",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -141,28 +158,11 @@
       "ressources_hal": [],
       "impact": "modéré",
       "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Thu, 08 Oct 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/cloture-injonction-france-travail"
-    },
-    {
-      "title": "Émeutes du 17 octobre : l'État peut-il être tenu responsable de ne pas avoir anticipé les violences ? Par Ariane Delion, Avocat.",
-      "type": "article",
-      "summary": "Commerces pillés, bâtiments incendiés, dégradations massives : les violences survenues en marge des manifestations du 17 octobre 2026 soulèvent une question juridique majeure. Lorsque les débordements",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "2026-10-19 14:00",
+      "category": "ai",
+      "category_label": "AI Act",
+      "date": "2026-10-26 13:00",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/emeutes-octobre-etat-peut-etre-tenu-responsable-pas-avoir-anticipe-les,59565.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/convention-nationale-des-avocats-grand-evenement-cnb-revient-toulouse-octobre,59255.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -317,6 +317,40 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Clôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL",
+      "type": "article",
+      "summary": "Par délibération du 23 septembre 2026, la CNIL a clos l’injonction prononcée le 22&amp;nbsp;janvier 2026 à l’encontre de FRANCE TRAVAIL, sans liquider l’astreinte prévue compte tenu de sa mise en conf",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Thu, 08 Oct 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/cloture-injonction-france-travail"
+    },
+    {
+      "title": "Émeutes du 17 octobre : l'État peut-il être tenu responsable de ne pas avoir anticipé les violences ? Par Ariane Delion, Avocat.",
+      "type": "article",
+      "summary": "Commerces pillés, bâtiments incendiés, dégradations massives : les violences survenues en marge des manifestations du 17 octobre 2026 soulèvent une question juridique majeure. Lorsque les débordements",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-10-19 14:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/emeutes-octobre-etat-peut-etre-tenu-responsable-pas-avoir-anticipe-les,59565.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Violations de données personnelles : dans quels cas peut-on être indemnisé ?",
@@ -1723,41 +1757,15 @@
       "date": "2026-06-02 10:45",
       "source": "Village de la Justice",
       "url": "https://www.village-justice.com/articles/nouvelle-sanction-cnil-matiere-donnees-sante-quels-enseignements-tirer,57661.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
-    },
-    {
-      "title": "Protection des lanceurs d'alerte : révélation d'identité et sanctions pour l'employeur",
-      "summary": "Un salarié lanceur d'alerte a signalé une irrégularité professionnelle via le dispositif interne de son employeur. Celui-ci a révélé son identité à la société mandante et l'a sanctionné par une mutation forcée.",
-      "analysis": "Cet cas illustre les risques de violation du droit à la protection des lanceurs d'alerte, notamment en matière de confidentialité et de représailles. Il souligne l'importance du respect des procédures légales (loi Sapin II, RGPD) et des sanctions encourues pour les employeurs. La jurisprudence pourrait renforcer la protection des lanceurs d'alerte face aux abus des entreprises.",
-      "avant_apres": null,
-      "impact": "élevé",
-      "impact_level": "high",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "2026-06-02 09:30",
-      "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/salarie-lanceur-alerte-ere-des-reseaux-sociaux,57635.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
-    },
-    {
-      "title": "Multiples vulnérabilités critiques dans le noyau Linux de Debian : risques d'élévation de privilèges et de fuite de données",
-      "summary": "Le CERT-FR et l'ANSSI ont identifié plusieurs vulnérabilités dans le noyau Linux de Debian, exposant les systèmes à des risques d'élévation de privilèges, de fuite de données sensibles et de déni de service. Ces failles, si exploitées, pourraient compromettre l'intégrité et la disponibilité des infrastructures numériques.",
-      "analysis": "Ces vulnérabilités soulèvent des enjeux majeurs en matière de cybersécurité, notamment pour les organisations utilisant Debian en production. Leur exploitation pourrait entraîner des violations du RGPD en cas de fuite de données personnelles, ainsi que des responsabilités juridiques pour les responsables de traitement. La portée est nationale et européenne, nécessitant une mise à jour urgente des systèmes.",
-      "avant_apres": "Avant : Les systèmes Debian vulnérables étaient exposés à des risques non maîtrisés. Après : Une application des correctifs réduit significativement les risques d'exploitation.",
-      "impact": "élevé",
-      "impact_level": "high",
-      "category": "legis",
-      "category_label": "Législation",
-      "date": "Fri, 22 May 2026",
-      "source": "ANSSI / CERT-FR",
-      "url": "https://www.cert.ssi.gouv.fr/avis/CERTFR-2026-AVI-0637/"
     }
   ],
   "stats": {
     "total": 100,
     "rgpd": 94,
-    "ai": 0,
+    "ai": 1,
     "sante": 0,
     "juris": 3,
-    "legis": 3
+    "legis": 2
   },
   "suggestions": [
     "Fiche d'arrêt : Agression sexuelle sur mineur : anonymis…",
