@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-26T12:32:25.288811Z",
+  "generated_at": "2026-11-02T15:09:31.228488Z",
   "note_hebdo": {
     "title": "Note hebdomadaire",
-    "week": "2026-10-19 au 2026-10-26",
+    "week": "2026-10-26 au 2026-11-02",
     "intro": "<p>Note en cours de génération.</p>",
     "full_content": "<p>Contenu indisponible.</p>",
     "tags": [
@@ -11,6 +11,23 @@
     "hal_sources": []
   },
   "articles": [
+    {
+      "title": "Cookies et application mobile : sanctions de 7 millions d’euros à l’encontre des sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT",
+      "type": "article",
+      "summary": "Le 22 octobre 2026, la CNIL a sanctionné les sociétés FNAC DARTY PARTICIPATIONS ET SERVICES et FNAC DIRECT d’une amende de 7&amp;nbsp;millions d’euros pour non-respect des règles applicables en matièr",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Thu, 29 Oct 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/sanction-cookies-app-fnac"
+    },
     {
       "title": "Journée RGPD à Poitiers : cybersécurité, IA et conformité au cœur des enjeux de protection des données",
       "type": "article",
@@ -131,9 +148,9 @@
       "url": "https://www.cnil.fr/fr/cepd-declaration-lunettes-connectees"
     },
     {
-      "title": "Rencontres Informatique & Libertés 2026 : voir la rediffusion de l'évènement",
+      "title": "Convaincre ou manipuler ? L'éthique du numérique à l'épreuve des urnes, le 16 novembre à la CNIL",
       "type": "article",
-      "summary": "La CNIL a organisé la 2ème édition de ses Rencontres Informatique &amp;amp; Libertés le mardi 29&amp;nbsp;septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec l",
+      "summary": "<p>Protection des droits des électeurs, ingérences étrangères… lundi 16&nbsp;novembre 2026, à partir de 14&nbsp;h, la CNIL vous invite à son événement dédié aux enjeux éthiques associés aux communicat",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -143,14 +160,14 @@
       "impact_level": "med",
       "category": "rgpd",
       "category_label": "RGPD",
-      "date": "Fri, 09 Oct 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/ril-2026"
+      "date": "Vendredi 30 octo",
+      "source": "LINC (CNIL)",
+      "url": "https://linc.cnil.fr/convaincre-ou-manipuler-lethique-du-numerique-lepreuve-des-urnes-le-16-novembre-la-cnil"
     },
     {
-      "title": "Retour gagnant pour la Convention Nationale des Avocats à Toulouse, ce que vous avez peut-être raté dans les stands de l'évènement…",
+      "title": "Évaluation des établissements médico-sociaux : quels recours face à une note défavorable publiée sur Qualiscope ? Par Estelle Minatchy, Juriste.",
       "type": "article",
-      "summary": "La Convention nationale des avocats 2026 s'est tenue du 21 au 23 octobre 2026 à Toulouse (et à Albi pour le volet international), et c'est, 9 ans après la précédente édition, un heureux moment de conf",
+      "summary": "Depuis septembre 2025, chacun peut consulter en ligne la note, de A à D, attribuée à un EHPAD, à un foyer ou à un service d'aide à domicile à l'issue de son évaluation. Cette transparence voulue par l",
       "analysis": "",
       "portee": "",
       "articles_cites": [],
@@ -158,11 +175,11 @@
       "ressources_hal": [],
       "impact": "modéré",
       "impact_level": "med",
-      "category": "ai",
-      "category_label": "AI Act",
-      "date": "2026-10-26 13:00",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "2026-11-02 14:30",
       "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/convention-nationale-des-avocats-grand-evenement-cnb-revient-toulouse-octobre,59255.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
+      "url": "https://www.village-justice.com/articles/evaluation-des-etablissements-medico-sociaux-quels-recours-face-une-note,59698.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Agression sexuelle sur mineur : anonymisation mais pas de suppression",
@@ -317,6 +334,40 @@
       "date": "Wed, 21 Sep 2022",
       "source": "Legalis.net",
       "url": "https://www.legalis.net/actualite/contrefacon-de-dessins-sans-alerte-de-lhebergeur-pas-de-responsabilite/"
+    },
+    {
+      "title": "Rencontres Informatique & Libertés 2026 : voir la rediffusion de l'évènement",
+      "type": "article",
+      "summary": "La CNIL a organisé la 2ème édition de ses Rencontres Informatique &amp;amp; Libertés le mardi 29&amp;nbsp;septembre 2026. Cette matinée a été l'occasion d’échanger sur différents sujets en lien avec l",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "rgpd",
+      "category_label": "RGPD",
+      "date": "Fri, 09 Oct 2026",
+      "source": "CNIL",
+      "url": "https://www.cnil.fr/fr/ril-2026"
+    },
+    {
+      "title": "Retour gagnant pour la Convention Nationale des Avocats à Toulouse, ce que vous avez peut-être raté dans les stands de l'évènement…",
+      "type": "article",
+      "summary": "La Convention nationale des avocats 2026 s'est tenue du 21 au 23 octobre 2026 à Toulouse (et à Albi pour le volet international), et c'est, 9 ans après la précédente édition, un heureux moment de conf",
+      "analysis": "",
+      "portee": "",
+      "articles_cites": [],
+      "mots_cles": [],
+      "ressources_hal": [],
+      "impact": "modéré",
+      "impact_level": "med",
+      "category": "ai",
+      "category_label": "AI Act",
+      "date": "2026-10-26 13:00",
+      "source": "Village de la Justice",
+      "url": "https://www.village-justice.com/articles/convention-nationale-des-avocats-grand-evenement-cnb-revient-toulouse-octobre,59255.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     },
     {
       "title": "Clôture de l’injonction prononcée à l’encontre de FRANCE TRAVAIL",
@@ -1710,53 +1761,6 @@
       "date": "2026-06-08 17:00",
       "source": "Village de la Justice",
       "url": "https://www.village-justice.com/articles/externalisation-industrialisation-nouveau-paradigme-economique-fonction,57613.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
-    },
-    {
-      "title": "Confidentialité de l’euro numérique : où en sommes-nous ?",
-      "type": "article",
-      "summary": "La proposition de règlement sur l’euro numérique est en cours de vote au Parlement européen et l'Eurosystème se prépare à son émission d'ici 2029. La CNIL et l’autorité fédérale allemande de protectio",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Wed, 13 May 2026",
-      "source": "CNIL",
-      "url": "https://www.cnil.fr/fr/confidentialite-de-leuro-numerique-ou-en-sommes-nous"
-    },
-    {
-      "title": "[Article 3/3] S’opposer au moissonnage en bloquant l’accès au site internet",
-      "type": "article",
-      "summary": "<p>L’article précédent examinait comment s’opposer au moissonnage par des mentions dans les conditions générales d’utilisation ou par des protocoles qui permettent de déclarer des droits d’accès lisib",
-      "analysis": "",
-      "portee": "",
-      "articles_cites": [],
-      "mots_cles": [],
-      "ressources_hal": [],
-      "impact": "modéré",
-      "impact_level": "med",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "Mardi 2 juin 202",
-      "source": "LINC (CNIL)",
-      "url": "https://linc.cnil.fr/article-33-sopposer-au-moissonnage-en-bloquant-lacces-au-site-internet"
-    },
-    {
-      "title": "Sanction CNIL contre Iqvia : nouveaux manquements au RGPD dans le traitement des données de santé",
-      "summary": "La CNIL a infligé une sanction à la société Iqvia pour plusieurs manquements à ses obligations au titre du RGPD concernant le traitement de données de santé. Cette décision s'inscrit dans une série d'interventions récentes de la CNIL sur les traitements sensibles.",
-      "analysis": "Cette sanction illustre l'attention accrue portée par la CNIL aux traitements de données de santé, secteur particulièrement sensible au regard du RGPD. Elle confirme la nécessité d'une conformité stricte aux méthodologies de référence (MR-001, MR-003) et aux principes de minimisation et de sécurité. Les entreprises doivent désormais anticiper des contrôles renforcés et des sanctions lourdes en cas de non-respect.",
-      "avant_apres": "Avant : Application souple des obligations RGPD pour les données de santé. Après : Contrôles stricts et sanctions systématiques en cas de manquements.",
-      "impact": "élevé",
-      "impact_level": "high",
-      "category": "rgpd",
-      "category_label": "RGPD",
-      "date": "2026-06-02 10:45",
-      "source": "Village de la Justice",
-      "url": "https://www.village-justice.com/articles/nouvelle-sanction-cnil-matiere-donnees-sante-quels-enseignements-tirer,57661.html?utm_source=backend&utm_medium=RSS&utm_campaign=RSS_Reseaux"
     }
   ],
   "stats": {
